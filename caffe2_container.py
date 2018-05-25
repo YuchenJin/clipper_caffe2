@@ -36,7 +36,7 @@ class caffe2Container(rpc.ModelContainerBase):
             workspace.CreateNet(self.net_def, overwrite=True)
 
 
-    def predict_strings(self.net_def, self.device_opts, inputs):
+    def predict_strings(self, inputs):
         preds = self.predict_func(self.net_def, self.device_opts, inputs)
         return [str("OK")]
 
@@ -81,7 +81,17 @@ if __name__ == "__main__":
     else:
         print("Using default input type: strings")
 
-    model = caffe2Container("/model", input_type)
+    if "CLIPPER_PATH" in os.environ:
+        path = str(os.environ["CLIPPER_PATH"])
+    else:
+        print("Clipper model path not found.")
+
+    if "GPU_ID" in os.environ:
+        gpu_id = int(os.environ["GPU_ID"])
+    else:
+        print("GPU id not set")
+
+    model = caffe2Container(path, input_type, gpu_id)
     #model = SumContainer()
     rpc_service = rpc.RPCService()
     rpc_service.start(model, ip, port, model_name, model_version, input_type)
