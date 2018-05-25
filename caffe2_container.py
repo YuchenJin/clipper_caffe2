@@ -81,8 +81,8 @@ if __name__ == "__main__":
     else:
         print("Using default input type: strings")
 
-    if "CLIPPER_PATH" in os.environ:
-        path = str(os.environ["CLIPPER_PATH"])
+    if "CLIPPER_MODEL_PATH" in os.environ:
+        path = str(os.environ["CLIPPER_MODEL_PATH"])
     else:
         print("Clipper model path not found.")
 

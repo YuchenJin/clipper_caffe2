@@ -12,6 +12,7 @@ export CLIPPER_MODEL_VERSION="1"
 export CLIPPER_MODEL_PATH="/model/vgg16"
 export CLIPPER_IP="" #IP address of the frontend container
 export CLIPPER_PORT="7000" 
+export GPU_ID="0" 
 
 if [ $? -eq $IMPORT_ERROR_RETURN_CODE ]; then
   echo "Encountered an ImportError when running container. You can use the pkgs_to_install argument when calling clipper_admin.build_model() to supply any needed Python packages."
