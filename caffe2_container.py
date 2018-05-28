@@ -62,7 +62,6 @@ if __name__ == "__main__":
     #ip = "localhost"
     if "CLIPPER_IP" in os.environ:
         ip = os.environ["CLIPPER_IP"]
-        print("Connecting to Clipper on {ip}").format(ip=ip)
     else:
         print(
             "ERROR: CLIPPER_IP environment variable must be set",
@@ -91,6 +90,7 @@ if __name__ == "__main__":
     else:
         print("GPU id not set")
 
+    print("Init model")
     model = caffe2Container(path, input_type, gpu_id)
     #model = SumContainer()
     rpc_service = rpc.RPCService()
