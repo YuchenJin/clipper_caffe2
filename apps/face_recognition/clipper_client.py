@@ -11,7 +11,7 @@ import base64
 
 
 class Dataset(object):
-    def __init__(self, data_dir, max_count=3000):
+    def __init__(self, data_dir, max_count=10000):
         self.images = []
         for fn in os.listdir(data_dir):
             with open(os.path.join(data_dir, fn), 'rb') as f:
@@ -44,7 +44,7 @@ class Worker(Thread):
             start = datetime.now()
             r = requests.post("http://localhost:1337/face-recognition/predict", headers=headers, data=json.dumps({"input": img})).json()
             end = datetime.now()
-            latency = (end - start).total_seconds() * 1000.0
+            lat = (end - start).total_seconds() * 1000.0
 
             self.lats.append((self.img_idx, lat))
             self.img_idx = (self.img_idx + 1) % len(self.dataset.images)
