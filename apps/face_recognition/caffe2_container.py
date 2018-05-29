@@ -12,11 +12,32 @@ import skimage.transform
 import base64
 
 
+def crop_center(img,cropx,cropy):
+    y,x,c = img.shape
+    startx = x//2-(cropx//2)
+    starty = y//2-(cropy//2)    
+    return img[starty:starty+cropy,startx:startx+cropx]
+
+def rescale(img, input_height, input_width):
+    # Get original aspect ratio
+    aspect = img.shape[1]/float(img.shape[0])
+    if(aspect>1):
+        # landscape orientation - wide image
+        res = int(aspect * input_height)
+        imgScaled = skimage.transform.resize(img, (input_width, res))
+    if(aspect<1):
+        # portrait orientation - tall image
+        res = int(input_width/aspect)
+        imgScaled = skimage.transform.resize(img, (res, input_height))
+    if(aspect == 1):
+        imgScaled = skimage.transform.resize(img, (input_width, input_height))
+    return imgScaled
+
 def predict_function(net_def, device_opts, imgs):
     NCHW_batch = np.zeros((len(imgs),3,224,224))
 
     for i, curr_img in enumerate(imgs):
-        img = skimage.img_as_float(skimage.io.imread(curr_img)).astype(np.float32)
+        img = skimage.img_as_float(curr_img).astype(np.float32)
         img = rescale(img, 224, 224)
         img = crop_center(img, 224, 224)
         img = img.swapaxes(1, 2).swapaxes(0, 1)
