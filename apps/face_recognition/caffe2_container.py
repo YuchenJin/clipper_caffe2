@@ -10,6 +10,7 @@ import numpy as np
 import skimage.io
 import skimage.transform
 import base64
+from StringIO import StringIO
 
 
 def crop_center(img,cropx,cropy):
@@ -37,16 +38,19 @@ def predict_function(net_def, device_opts, imgs):
     NCHW_batch = np.zeros((len(imgs),3,224,224))
 
     for i, curr_img in enumerate(imgs):
+	curr_img = skimage.io.imread(StringIO(curr_img))
         img = skimage.img_as_float(curr_img).astype(np.float32)
         img = rescale(img, 224, 224)
         img = crop_center(img, 224, 224)
         img = img.swapaxes(1, 2).swapaxes(0, 1)
         img = img[(2, 1, 0), :, :]
-        img = img * 255 - mean
+        img = img * 255 - 128
         NCHW_batch[i] = img
 
     workspace.FeedBlob('data', NCHW_batch.astype(np.float32), device_opts)
     workspace.RunNet(net_def.name, 1)
+    results = workspace.FetchBlob('prob')
+    return results
 
 
 class caffe2Container(rpc.ModelContainerBase):
@@ -57,6 +61,10 @@ class caffe2Container(rpc.ModelContainerBase):
         modules_folder_path = "{dir}/".format(dir=path)
         INIT_NET = "{dir}/init_net.pb".format(dir=modules_folder_path)
         PREDICT_NET = "{dir}/predict_net.pb".format(dir=modules_folder_path)
+	
+	with open('/hdfs/pnrsy/v-haicsh/nexus-models/store/caffe2/vgg_face/names.txt', 'rb') as fd:
+	     self.cns = [l.rstrip() for l in fd]
+	
         self.predict_func = predict_function
 
         init_def = caffe2_pb2.NetDef()
@@ -77,8 +85,14 @@ class caffe2Container(rpc.ModelContainerBase):
         for i in range(len(inputs)):
             img_bgr = base64.b64decode(inputs[i])
             imgs.append(img_bgr)
-
         preds = self.predict_func(self.net_def, self.device_opts, imgs)
+	
+	result = []
+	for i in range(len(preds)):
+            name = self.cns[np.argmax(preds[i])]
+	    result.append(name)
+   
+	return result
     
     #def predict_bytes(self, inputs):
     #    imgs = []
