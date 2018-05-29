@@ -536,8 +536,8 @@ class RPCService:
 
         # Create a file named model_is_ready.check to show that model and container
         # are ready
-        with open("/model_is_ready.check", "w") as f:
-            f.write("READY")
+        #with open("/model_is_ready.check", "w") as f:
+        #    f.write("READY")
         if self.collect_metrics:
             start_metric_server()
             add_metrics()
