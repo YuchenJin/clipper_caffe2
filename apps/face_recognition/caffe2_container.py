@@ -40,8 +40,8 @@ def predict_function(net_def, device_opts, imgs):
     for i, curr_img in enumerate(imgs):
 	curr_img = skimage.io.imread(StringIO(curr_img))
         img = skimage.img_as_float(curr_img).astype(np.float32)
-        img = rescale(img, 224, 224)
-        img = crop_center(img, 224, 224)
+        #img = rescale(img, 224, 224)
+        #img = crop_center(img, 224, 224)
         img = img.swapaxes(1, 2).swapaxes(0, 1)
         img = img[(2, 1, 0), :, :]
         img = img * 255 - 128
@@ -62,7 +62,7 @@ class caffe2Container(rpc.ModelContainerBase):
         INIT_NET = "{dir}/init_net.pb".format(dir=modules_folder_path)
         PREDICT_NET = "{dir}/predict_net.pb".format(dir=modules_folder_path)
 	
-	with open('/hdfs/pnrsy/v-haicsh/nexus-models/store/caffe2/vgg_face/names.txt', 'rb') as fd:
+	with open('/hdfs/msrlabs/v-haicsh/nexus-models-nsdi/store/caffe2/vgg_face/names.txt', 'rb') as fd:
 	     self.cns = [l.rstrip() for l in fd]
 	
         self.predict_func = predict_function
