@@ -1,12 +1,12 @@
 import sys
 import glob
 
-print(glob.glob("./*txt"))
+logs = glob.glob("./vgg_face1_sla100*txt")
+logs.sort(key=lambda f: float(f.split("_")[-1].replace("rate", '').replace(".txt", '')))
 
-
-for i in glob.glob("./*txt"):
+for i in logs:
     with open(i) as f:
-        print i
+#        print i
         success, total = 0, 0
         for line in f:
             total += 1
