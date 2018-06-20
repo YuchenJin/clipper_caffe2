@@ -1,0 +1,350 @@
+{u'default': False, u'output': u'John_Hodgman', u'query_id': 1336469}
+{u'default': False, u'output': u'Martin_Freeman', u'query_id': 1336488}
+{u'default': False, u'output': u'Lucy_Hale', u'query_id': 1336511}
+{u'default': False, u'output': u'Mindy_Kaling', u'query_id': 1336512}
+{u'default': False, u'output': u'Cindy_Williams', u'query_id': 1336513}
+{u'default': False, u'output': u'Samantha_Bond', u'query_id': 1336514}
+{u'default': False, u'output': u'Adam_Brody', u'query_id': 1336529}
+{u'default': False, u'output': u'Stephen_Collins', u'query_id': 1336531}
+{u'default': False, u'output': u'Peter_Lorre', u'query_id': 1336535}
+{u'default': False, u'output': u'Jessica_Lowndes', u'query_id': 1336539}
+{u'default': False, u'output': u'Colin_Ferguson', u'query_id': 1336544}
+{u'default': False, u'output': u'Adam_Godley', u'query_id': 1336547}
+{u'default': False, u'output': u'Emraan_Hashmi', u'query_id': 1336545}
+{u'default': False, u'output': u'Chris_Young', u'query_id': 1336548}
+{u'default': False, u'output': u'Violante_Placido', u'query_id': 1336549}
+{u'default': True, u'output': -1.0, u'query_id': 1336550, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1336551, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1336552, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1336555, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Gordon_Ramsay', u'query_id': 1336546}
+{u'default': True, u'output': -1.0, u'query_id': 1336554, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1336557, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1336553, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Adam_Hicks', u'query_id': 1336559}
+{u'default': True, u'output': -1.0, u'query_id': 1336556, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Paz_de_la_Huerta', u'query_id': 1336572}
+{u'default': False, u'output': u'Chris_Colfer', u'query_id': 1336575}
+{u'default': True, u'output': -1.0, u'query_id': 1336576, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1336579, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1336584, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Tom_Bergeron', u'query_id': 1336588}
+{u'default': False, u'output': u'Arielle_Vandenberg', u'query_id': 1336593}
+{u'default': False, u'output': u'John_Noble', u'query_id': 1336598}
+{u'default': False, u'output': u'Gloria_Grahame', u'query_id': 1336601}
+{u'default': False, u'output': u'Kasia_Smutniak', u'query_id': 1336604}
+{u'default': False, u'output': u'Liane_Balaban', u'query_id': 1336611}
+{u'default': False, u'output': u'Samantha_Barks', u'query_id': 1336612}
+{u'default': False, u'output': u'Fawad_Khan', u'query_id': 1336616}
+{u'default': False, u'output': u'Rebel_Wilson', u'query_id': 1336620}
+{u'default': False, u'output': u'David_Eigenberg', u'query_id': 1336624}
+{u'default': False, u'output': u'Mark_McGrath', u'query_id': 1336628}
+{u'default': False, u'output': u'Jeremy_Sisto', u'query_id': 1336632}
+{u'default': False, u'output': u'Jeffrey_Tambor', u'query_id': 1336639}
+{u'default': False, u'output': u'Kevin_Bacon', u'query_id': 1336640}
+{u'default': False, u'output': u'John_Rhys-Davies', u'query_id': 1336644}
+{u'default': False, u'output': u'Rafael_Amaya', u'query_id': 1336653}
+{u'default': False, u'output': u'Hal_Sparks', u'query_id': 1336657}
+{u'default': False, u'output': u'Ron_Perlman', u'query_id': 1336658}
+{u'default': True, u'output': -1.0, u'query_id': 1336659, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1336662, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Jackson_Brundage', u'query_id': 1336668}
+{u'default': False, u'output': u'Thomas_Gibson', u'query_id': 1336672}
+{u'default': False, u'output': u'Tom_Payne', u'query_id': 1336680}
+{u'default': False, u'output': u'Jeremy_Sisto', u'query_id': 1336684}
+{u'default': False, u'output': u'Jamie-Lynn_Sigler', u'query_id': 1336688}
+{u'default': False, u'output': u'Melissa_McBride', u'query_id': 1336690}
+{u'default': False, u'output': u'Lauryn_Hill', u'query_id': 1336692}
+{u'default': False, u'output': u'Sam_Page', u'query_id': 1336694}
+{u'default': False, u'output': u'Sam_Riley', u'query_id': 1336700}
+{u'default': False, u'output': u'Gugu_Mbatha-Raw', u'query_id': 1336705}
+{u'default': False, u'output': u'Jillian_Michaels', u'query_id': 1336707}
+{u'default': False, u'output': u'Jon_Pertwee', u'query_id': 1336711}
+{u'default': False, u'output': u'Rebel_Wilson', u'query_id': 1336717}
+{u'default': False, u'output': u'Hannah_Storm', u'query_id': 1336720}
+{u'default': False, u'output': u'Jacqueline_Fernandez', u'query_id': 1336721}
+{u'default': False, u'output': u'Catalina_Sandino_Moreno', u'query_id': 1336728}
+{u'default': False, u'output': u'Randy_Harrison', u'query_id': 1336733}
+{u'default': False, u'output': u'Karoline_Herfurth', u'query_id': 1336736}
+{u'default': False, u'output': u'Kuno_Becker', u'query_id': 1336741}
+{u'default': False, u'output': u'Thomas_Dekker', u'query_id': 1336745}
+{u'default': False, u'output': u'Lauren_London', u'query_id': 1336746}
+{u'default': False, u'output': u'Nora_Zehetner', u'query_id': 1336747}
+{u'default': False, u'output': u'Jessica_Marais', u'query_id': 1336753}
+{u'default': False, u'output': u'Adrianne_Curry', u'query_id': 1336764}
+{u'default': False, u'output': u'Jade_Ramsey', u'query_id': 1336770}
+{u'default': False, u'output': u'Gates_McFadden', u'query_id': 1336771}
+{u'default': False, u'output': u'John_Ratzenberger', u'query_id': 1336773}
+{u'default': True, u'output': -1.0, u'query_id': 1336779, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1336781, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Ann-Margret', u'query_id': 1336785}
+{u'default': False, u'output': u'Sofia_Vassilieva', u'query_id': 1336789}
+{u'default': False, u'output': u'Adelaide_Kane', u'query_id': 1336792}
+{u'default': False, u'output': u'Tatyana_Ali', u'query_id': 1336797}
+{u'default': False, u'output': u'Avan_Jogia', u'query_id': 1336801}
+{u'default': False, u'output': u'Jessica_Lowndes', u'query_id': 1336804}
+{u'default': False, u'output': u'Ruby_Dee', u'query_id': 1336809}
+{u'default': False, u'output': u'Jordana_Brewster', u'query_id': 1336813}
+{u'default': False, u'output': u'Karolina_Kurkova', u'query_id': 1336816}
+{u'default': False, u'output': u'Joel_McHale', u'query_id': 1336817}
+{u'default': False, u'output': u'Chazz_Palminteri', u'query_id': 1336823}
+{u'default': False, u'output': u'James_Denton', u'query_id': 1336827}
+{u'default': False, u'output': u'Marc_Blucas', u'query_id': 1336839}
+{u'default': False, u'output': u'Jo_Champa', u'query_id': 1336840}
+{u'default': False, u'output': u'Dennis_Haysbert', u'query_id': 1336841}
+{u'default': False, u'output': u'Raviv_Ullman', u'query_id': 1336848}
+{u'default': False, u'output': u'Lauren_Graham', u'query_id': 1336852}
+{u'default': False, u'output': u'Rafael_Amaya', u'query_id': 1336859}
+{u'default': False, u'output': u'Kelli_Berglund', u'query_id': 1336863}
+{u'default': False, u'output': u'Pierre_Niney', u'query_id': 1336867}
+{u'default': False, u'output': u'John_Carroll_Lynch', u'query_id': 1336866}
+{u'default': False, u'output': u'Clara_Lago', u'query_id': 1336873}
+{u'default': False, u'output': u'Merritt_Wever', u'query_id': 1336875}
+{u'default': False, u'output': u'Meredith_Salenger', u'query_id': 1336882}
+{u'default': False, u'output': u'Hugh_Laurie', u'query_id': 1336884}
+{u'default': False, u'output': u'Timothy_Spall', u'query_id': 1336888}
+{u'default': False, u'output': u'Anton_Yelchin', u'query_id': 1336889}
+{u'default': False, u'output': u'Penny_Marshall', u'query_id': 1336894}
+{u'default': False, u'output': u'Sylvia_Hoeks', u'query_id': 1336901}
+{u'default': False, u'output': u'Thandie_Newton', u'query_id': 1336902}
+{u'default': False, u'output': u'William_Levy', u'query_id': 1336909}
+{u'default': False, u'output': u'Boris_Kodjoe', u'query_id': 1336913}
+{u'default': False, u'output': u'Jessie_J', u'query_id': 1336919}
+{u'default': False, u'output': u'Omar_Epps', u'query_id': 1336921}
+{u'default': False, u'output': u'Jorge_Garcia', u'query_id': 1336923}
+{u'default': False, u'output': u'Selita_Ebanks', u'query_id': 1336925}
+{u'default': False, u'output': u'Joe_Jonas', u'query_id': 1336927}
+{u'default': False, u'output': u'Oona_Chaplin', u'query_id': 1336934}
+{u'default': False, u'output': u'Kate_Voegele', u'query_id': 1336930}
+{u'default': False, u'output': u'Garcelle_Beauvais', u'query_id': 1336936}
+{u'default': False, u'output': u'Sydney_Pollack', u'query_id': 1336929}
+{u'default': False, u'output': u'Rene_Auberjonois', u'query_id': 1336937}
+{u'default': False, u'output': u'Sean_Bean', u'query_id': 1336939}
+{u'default': False, u'output': u'Pierfrancesco_Favino', u'query_id': 1336940}
+{u'default': False, u'output': u'Dan_Stevens', u'query_id': 1336943}
+{u'default': False, u'output': u'Marc_Blucas', u'query_id': 1336945}
+{u'default': False, u'output': u'Giovanni_Ribisi', u'query_id': 1336947}
+{u'default': False, u'output': u'Evanna_Lynch', u'query_id': 1336949}
+{u'default': False, u'output': u'Penn_Jillette', u'query_id': 1336950}
+{u'default': False, u'output': u'Milo_Ventimiglia', u'query_id': 1336953}
+{u'default': False, u'output': u'Bethany_Mota', u'query_id': 1336955}
+{u'default': False, u'output': u'Jon_Bernthal', u'query_id': 1336962}
+{u'default': True, u'output': -1.0, u'query_id': 1336963, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Sean_Connery', u'query_id': 1336957}
+{u'default': True, u'output': -1.0, u'query_id': 1336965, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Padma_Lakshmi', u'query_id': 1336959}
+{u'default': False, u'output': u'Sky_Ferreira', u'query_id': 1336967}
+{u'default': False, u'output': u'Katy_Mixon', u'query_id': 1336975}
+{u'default': False, u'output': u'Jacob_Artist', u'query_id': 1336979}
+{u'default': False, u'output': u'Christy_Carlson_Romano', u'query_id': 1336982}
+{u'default': False, u'output': u'Ricky_Whittle', u'query_id': 1336983}
+{u'default': False, u'output': u'Natalie_Dormer', u'query_id': 1336985}
+{u'default': False, u'output': u'Adam_Hicks', u'query_id': 1336988}
+{u'default': False, u'output': u'Kate_Beckinsale', u'query_id': 1336989}
+{u'default': False, u'output': u'Matt_Lanter', u'query_id': 1336991}
+{u'default': True, u'output': -1.0, u'query_id': 1336993, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Shohreh_Aghdashloo', u'query_id': 1336995}
+{u'default': False, u'output': u'Keri_Russell', u'query_id': 1336997}
+{u'default': False, u'output': u'Keith_Richards', u'query_id': 1336998}
+{u'default': False, u'output': u'Samantha_Mathis', u'query_id': 1337000}
+{u'default': False, u'output': u'Jamie_Gray_Hyder', u'query_id': 1337003}
+{u'default': False, u'output': u'Victoria_Silvstedt', u'query_id': 1337004}
+{u'default': False, u'output': u'Morris_Chestnut', u'query_id': 1337006}
+{u'default': False, u'output': u'Danny_Masterson', u'query_id': 1337009}
+{u'default': False, u'output': u'Booboo_Stewart', u'query_id': 1337010}
+{u'default': False, u'output': u'Heather_Graham', u'query_id': 1337012}
+{u'default': False, u'output': u'Mitchel_Musso', u'query_id': 1337014}
+{u'default': False, u'output': u'Lauren_Storm', u'query_id': 1337015}
+{u'default': False, u'output': u'Rebel_Wilson', u'query_id': 1337017}
+{u'default': False, u'output': u'Marie_Avgeropoulos', u'query_id': 1337019}
+{u'default': False, u'output': u'Nick_Cannon', u'query_id': 1337022}
+{u'default': False, u'output': u'Lisa_Kudrow', u'query_id': 1337024}
+{u'default': False, u'output': u'Richard_Burgi', u'query_id': 1337027}
+{u'default': False, u'output': u'Lesley_Nicol', u'query_id': 1337028}
+{u'default': False, u'output': u'Kal_Penn', u'query_id': 1337029}
+{u'default': False, u'output': u'Monique_Coleman', u'query_id': 1337030}
+{u'default': False, u'output': u'Jenny_Wade', u'query_id': 1337033}
+{u'default': False, u'output': u'Gemma_Arterton', u'query_id': 1337035}
+{u'default': False, u'output': u'Gordon_Ramsay', u'query_id': 1337038}
+{u'default': False, u'output': u'Sela_Ward', u'query_id': 1337037}
+{u'default': False, u'output': u'Shirley_Manson', u'query_id': 1337041}
+{u'default': False, u'output': u'Tyler_Perry', u'query_id': 1337044}
+{u'default': False, u'output': u'Sharon_Case', u'query_id': 1337043}
+{u'default': False, u'output': u'Paige_Turco', u'query_id': 1337047}
+{u'default': False, u'output': u'Janel_Parrish', u'query_id': 1337049}
+{u'default': False, u'output': u'Stanley_Tucci', u'query_id': 1337050}
+{u'default': False, u'output': u'Jason_Segel', u'query_id': 1337051}
+{u'default': False, u'output': u'Chiara_Mastroianni', u'query_id': 1337054}
+{u'default': False, u'output': u'Claire_Coffee', u'query_id': 1337058}
+{u'default': False, u'output': u'Smokey_Robinson', u'query_id': 1337059}
+{u'default': False, u'output': u'Grace_Lee_Whitney', u'query_id': 1337062}
+{u'default': False, u'output': u'Elaine_Cassidy', u'query_id': 1337063}
+{u'default': False, u'output': u'Steve_Jobs', u'query_id': 1337065}
+{u'default': False, u'output': u'Virginie_Ledoyen', u'query_id': 1337067}
+{u'default': False, u'output': u'Stana_Katic', u'query_id': 1337069}
+{u'default': False, u'output': u'Pablo_Schreiber', u'query_id': 1337071}
+{u'default': False, u'output': u'Kathryn_Prescott', u'query_id': 1337073}
+{u'default': False, u'output': u'Jake_Abel', u'query_id': 1337075}
+{u'default': False, u'output': u'Caity_Lotz', u'query_id': 1337077}
+{u'default': False, u'output': u'Janel_Parrish', u'query_id': 1337080}
+{u'default': False, u'output': u'Barbara_Eden', u'query_id': 1337081}
+{u'default': False, u'output': u'Martin_Clunes', u'query_id': 1337083}
+{u'default': False, u'output': u'Adelaide_Clemens', u'query_id': 1337085}
+{u'default': False, u'output': u'Raini_Rodriguez', u'query_id': 1337087}
+{u'default': False, u'output': u'Zachary_Levi', u'query_id': 1337091}
+{u'default': False, u'output': u'Oliver_Jackson-Cohen', u'query_id': 1337090}
+{u'default': False, u'output': u'Louise_Bourgoin', u'query_id': 1337093}
+{u'default': False, u'output': u'Olivia_Colman', u'query_id': 1337097}
+{u'default': False, u'output': u'Olivia_Colman', u'query_id': 1337099}
+{u'default': True, u'output': -1.0, u'query_id': 1337103, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Nicole_Richie', u'query_id': 1337096}
+{u'default': True, u'output': -1.0, u'query_id': 1337106, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1337105, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Francesca_Eastwood', u'query_id': 1337102}
+{u'default': False, u'output': u'Rachel_Dratch', u'query_id': 1337115}
+{u'default': False, u'output': u'Doutzen_Kroes', u'query_id': 1337119}
+{u'default': False, u'output': u'Molly_Shannon', u'query_id': 1337124}
+{u'default': True, u'output': -1.0, u'query_id': 1337109, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'James_Lipton', u'query_id': 1337125}
+{u'default': False, u'output': u'Aida_Turturro', u'query_id': 1337127}
+{u'default': False, u'output': u'Beau_Mirchoff', u'query_id': 1337128}
+{u'default': False, u'output': u'Alexander_Ludwig', u'query_id': 1337118}
+{u'default': False, u'output': u'Mark_Indelicato', u'query_id': 1337131}
+{u'default': True, u'output': -1.0, u'query_id': 1337132, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1337111, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Margarita_Levieva', u'query_id': 1337137}
+{u'default': False, u'output': u'Will_Poulter', u'query_id': 1337139}
+{u'default': True, u'output': -1.0, u'query_id': 1337134, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1337114, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Max_Ryan', u'query_id': 1337140}
+{u'default': False, u'output': u'Anna_Wintour', u'query_id': 1337144}
+{u'default': False, u'output': u'Adina_Porter', u'query_id': 1337146}
+{u'default': False, u'output': u'Christina_Moore', u'query_id': 1337143}
+{u'default': True, u'output': -1.0, u'query_id': 1337135, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Tom_Wilkinson', u'query_id': 1337148}
+{u'default': False, u'output': u'Thomas_Robinson', u'query_id': 1337150}
+{u'default': False, u'output': u'Garcelle_Beauvais', u'query_id': 1337152}
+{u'default': False, u'output': u'America_Ferrera', u'query_id': 1337154}
+{u'default': False, u'output': u'Dina_Merrill', u'query_id': 1337156}
+{u'default': False, u'output': u'Katie_Cassidy', u'query_id': 1337158}
+{u'default': False, u'output': u'Kellan_Lutz', u'query_id': 1337160}
+{u'default': False, u'output': u'Mircea_Monroe', u'query_id': 1337162}
+{u'default': True, u'output': -1.0, u'query_id': 1337164, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Luke_Wilson', u'query_id': 1337166}
+{u'default': True, u'output': -1.0, u'query_id': 1337168, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Katie_Cleary', u'query_id': 1337171}
+{u'default': False, u'output': u'Christy_Carlson_Romano', u'query_id': 1337172}
+{u'default': False, u'output': u'Michelle_Williams', u'query_id': 1337174}
+{u'default': False, u'output': u'Hector_Elizondo', u'query_id': 1337178}
+{u'default': False, u'output': u'Kyle_MacLachlan', u'query_id': 1337176}
+{u'default': False, u'output': u'Rutina_Wesley', u'query_id': 1337180}
+{u'default': False, u'output': u'Josh_Hutcherson', u'query_id': 1337184}
+{u'default': False, u'output': u'Penny_Marshall', u'query_id': 1337181}
+{u'default': False, u'output': u'MyAnna_Buring', u'query_id': 1337187}
+{u'default': False, u'output': u'Adrianne_Palicki', u'query_id': 1337186}
+{u'default': False, u'output': u'Mehdi_Dehbi', u'query_id': 1337190}
+{u'default': False, u'output': u'Lesley_Nicol', u'query_id': 1337192}
+{u'default': False, u'output': u'Ricardo_Chavira', u'query_id': 1337194}
+{u'default': False, u'output': u'Jim_Sturgess', u'query_id': 1337198}
+{u'default': False, u'output': u'Shad_Moss', u'query_id': 1337199}
+{u'default': False, u'output': u'Billy_Connolly', u'query_id': 1337200}
+{u'default': False, u'output': u'Ranbir_Kapoor', u'query_id': 1337203}
+{u'default': True, u'output': -1.0, u'query_id': 1337206, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Howie_Mandel', u'query_id': 1337202}
+{u'default': False, u'output': u'Laura_Carmichael', u'query_id': 1337208}
+{u'default': False, u'output': u'Joe_Manganiello', u'query_id': 1337212}
+{u'default': False, u'output': u'Diane_Keaton', u'query_id': 1337210}
+{u'default': False, u'output': u'Ricardo_Chavira', u'query_id': 1337214}
+{u'default': False, u'output': u'Terence_Stamp', u'query_id': 1337215}
+{u'default': False, u'output': u'Clive_Owen', u'query_id': 1337218}
+{u'default': False, u'output': u'Constance_Zimmer', u'query_id': 1337222}
+{u'default': False, u'output': u'Jennifer_Esposito', u'query_id': 1337219}
+{u'default': False, u'output': u'Sasha_Pieterse', u'query_id': 1337227}
+{u'default': False, u'output': u'Joel_Edgerton', u'query_id': 1337229}
+{u'default': False, u'output': u'John_Ridley', u'query_id': 1337230}
+{u'default': False, u'output': u'Ted_Levine', u'query_id': 1337231}
+{u'default': False, u'output': u'Holly_Marie_Combs', u'query_id': 1337233}
+{u'default': False, u'output': u'Jorge_Garcia', u'query_id': 1337234}
+{u'default': False, u'output': u'Hedy_Lamarr', u'query_id': 1337237}
+{u'default': True, u'output': -1.0, u'query_id': 1337239, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Stephen_Collins', u'query_id': 1337241}
+{u'default': False, u'output': u'Natalie_Morales', u'query_id': 1337247}
+{u'default': True, u'output': -1.0, u'query_id': 1337243, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Estelle_Harris', u'query_id': 1337245}
+{u'default': False, u'output': u'Sinqua_Walls', u'query_id': 1337249}
+{u'default': False, u'output': u'Jenny_Wade', u'query_id': 1337253}
+{u'default': False, u'output': u'Danica_McKellar', u'query_id': 1337255}
+{u'default': False, u'output': u'Grace_Lee_Whitney', u'query_id': 1337251}
+{u'default': False, u'output': u'Kara_Hayward', u'query_id': 1337256}
+{u'default': False, u'output': u'Zach_McGowan', u'query_id': 1337258}
+{u'default': False, u'output': u'CeeLo_Green', u'query_id': 1337262}
+{u'default': False, u'output': u'Oscar_Isaac', u'query_id': 1337264}
+{u'default': False, u'output': u'Sammi_Hanratty', u'query_id': 1337260}
+{u'default': False, u'output': u'Garcelle_Beauvais', u'query_id': 1337266}
+{u'default': False, u'output': u'Tim_Minchin', u'query_id': 1337270}
+{u'default': False, u'output': u'Quentin_Tarantino', u'query_id': 1337268}
+{u'default': False, u'output': u'Justine_Ezarik', u'query_id': 1337272}
+{u'default': False, u'output': u'Miranda_Cosgrove', u'query_id': 1337273}
+{u'default': False, u'output': u'Sydney_Pollack', u'query_id': 1337274}
+{u'default': False, u'output': u'Olivia_Colman', u'query_id': 1337275}
+{u'default': False, u'output': u'Ashley_Jones', u'query_id': 1337279}
+{u'default': False, u'output': u'Kate_McKinnon', u'query_id': 1337282}
+{u'default': False, u'output': u'Sidharth_Malhotra', u'query_id': 1337283}
+{u'default': False, u'output': u'Aida_Turturro', u'query_id': 1337285}
+{u'default': False, u'output': u'Omari_Hardwick', u'query_id': 1337287}
+{u'default': False, u'output': u'Michael_Stahl-David', u'query_id': 1337289}
+{u'default': False, u'output': u'Kari_Matchett', u'query_id': 1337291}
+{u'default': False, u'output': u'Amaury_Nolasco', u'query_id': 1337293}
+{u'default': True, u'output': -1.0, u'query_id': 1337299, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Michelle_Ryan', u'query_id': 1337295}
+{u'default': True, u'output': -1.0, u'query_id': 1337296, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Garcelle_Beauvais', u'query_id': 1337302}
+{u'default': False, u'output': u'Kathy_Ireland', u'query_id': 1337303}
+{u'default': False, u'output': u'Jon_Bernthal', u'query_id': 1337305}
+{u'default': False, u'output': u'Jena_Malone', u'query_id': 1337307}
+{u'default': False, u'output': u'Jimmy_Bennett', u'query_id': 1337309}
+{u'default': False, u'output': u'Ruta_Lee', u'query_id': 1337313}
+{u'default': False, u'output': u'Daniel_Tosh', u'query_id': 1337311}
+{u'default': False, u'output': u'Jonathan_Bennett', u'query_id': 1337315}
+{u'default': False, u'output': u'Doutzen_Kroes', u'query_id': 1337316}
+{u'default': False, u'output': u'Senta_Berger', u'query_id': 1337319}
+{u'default': False, u'output': u'Zach_McGowan', u'query_id': 1337323}
+{u'default': False, u'output': u'Judith_Light', u'query_id': 1337321}
+{u'default': False, u'output': u'Jennifer_Ferrin', u'query_id': 1337327}
+{u'default': False, u'output': u'Richard_Attenborough', u'query_id': 1337325}
+{u'default': False, u'output': u'Jeremy_Piven', u'query_id': 1337332}
+{u'default': False, u'output': u'Bethany_Mota', u'query_id': 1337329}
+{u'default': False, u'output': u'Jeff_Fahey', u'query_id': 1337334}
+{u'default': False, u'output': u'Lou_Diamond_Phillips', u'query_id': 1337336}
+{u'default': False, u'output': u'Reggie_Lee', u'query_id': 1337335}
+{u'default': False, u'output': u'John_Barrowman', u'query_id': 1337339}
+{u'default': False, u'output': u'KayCee_Stroh', u'query_id': 1337341}
+{u'default': False, u'output': u'Lauren_Potter', u'query_id': 1337344}
+{u'default': False, u'output': u'Dennis_Weaver', u'query_id': 1337347}
+{u'default': False, u'output': u'Kevin_Clash', u'query_id': 1337345}
+{u'default': False, u'output': u'Laura_Bell_Bundy', u'query_id': 1337349}
+{u'default': False, u'output': u'Michael_Rady', u'query_id': 1337351}
+{u'default': False, u'output': u'Miranda_Kerr', u'query_id': 1337350}
+{u'default': True, u'output': -1.0, u'query_id': 1337354, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1337353, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1337366, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Jake_Cherry', u'query_id': 1337364}
+{u'default': False, u'output': u'Ed_Westwick', u'query_id': 1337359}
+{u'default': False, u'output': u'Kaitlin_Olson', u'query_id': 1337367}
+{u'default': True, u'output': -1.0, u'query_id': 1337372, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Eduardo_Noriega', u'query_id': 1337360}
+{u'default': True, u'output': -1.0, u'query_id': 1337369, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Philip_Baker_Hall', u'query_id': 1337387}
+{u'default': True, u'output': -1.0, u'query_id': 1337375, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Nicole_Sullivan', u'query_id': 1337389}
+{u'default': True, u'output': -1.0, u'query_id': 1337363, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Melanie_Lynskey', u'query_id': 1337394}
+{u'default': True, u'output': -1.0, u'query_id': 1337377, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Heike_Makatsch', u'query_id': 1337397}
+{u'default': False, u'output': u'Matthew_Lillard', u'query_id': 1337392}
+{u'default': True, u'output': -1.0, u'query_id': 1337378, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Adrian_Grenier', u'query_id': 1337395}
+{u'default': True, u'output': -1.0, u'query_id': 1337381, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Charlotte_Sullivan', u'query_id': 1337398}
+{u'default': True, u'output': -1.0, u'query_id': 1337383, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Kay_Panabaker', u'query_id': 1337385}
