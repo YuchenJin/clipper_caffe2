@@ -105,47 +105,47 @@ class caffe2Container(rpc.ModelContainerBase):
     
 if __name__ == "__main__":
     print("Starting Caffe2 container")
-    try:
-        model_name = os.environ["CLIPPER_MODEL_NAME"]
-    except KeyError:
-        print(
-            "ERROR: CLIPPER_MODEL_NAME environment variable must be set",
-            file=sys.stdout)
-        sys.exit(1)
+    #try:
+    #    model_name = os.environ["CLIPPER_MODEL_NAME"]
+    #except KeyError:
+    #    print(
+    #        "ERROR: CLIPPER_MODEL_NAME environment variable must be set",
+    #        file=sys.stdout)
+    #    sys.exit(1)
 
-    try:
-        model_version = os.environ["CLIPPER_MODEL_VERSION"]
-    except KeyError:
-        print(
-            "ERROR: CLIPPER_MODEL_VERSION environment variable must be set",
-            file=sys.stdout)
-        sys.exit(1)
+    #try:
+    #    model_version = os.environ["CLIPPER_MODEL_VERSION"]
+    #except KeyError:
+    #    print(
+    #        "ERROR: CLIPPER_MODEL_VERSION environment variable must be set",
+    #        file=sys.stdout)
+    #    sys.exit(1)
 
-    #ip = "localhost"
-    if "CLIPPER_IP" in os.environ:
-        ip = os.environ["CLIPPER_IP"]
-    else:
-        print(
-            "ERROR: CLIPPER_IP environment variable must be set",
-            file=sys.stdout)
-        sys.exit(1)
+    ##ip = "localhost"
+    #if "CLIPPER_IP" in os.environ:
+    #    ip = os.environ["CLIPPER_IP"]
+    #else:
+    #    print(
+    #        "ERROR: CLIPPER_IP environment variable must be set",
+    #        file=sys.stdout)
+    #    sys.exit(1)
 
-    port = 7000
-    if "CLIPPER_PORT" in os.environ:
-        port = int(os.environ["CLIPPER_PORT"])
-    else:
-        print("Connecting to Clipper with default port: 7000")
+    #port = 7000
+    #if "CLIPPER_PORT" in os.environ:
+    #    port = int(os.environ["CLIPPER_PORT"])
+    #else:
+    #    print("Connecting to Clipper with default port: 7000")
 
-    input_type = "strings"
-    if "CLIPPER_INPUT_TYPE" in os.environ:
-        input_type = os.environ["CLIPPER_INPUT_TYPE"]
-    else:
-        print("Using default input type: strings")
+    #input_type = "strings"
+    #if "CLIPPER_INPUT_TYPE" in os.environ:
+    #    input_type = os.environ["CLIPPER_INPUT_TYPE"]
+    #else:
+    #    print("Using default input type: strings")
 
-    if "CLIPPER_MODEL_PATH" in os.environ:
-        path = str(os.environ["CLIPPER_MODEL_PATH"])
-    else:
-        print("Clipper model path not found.")
+    #if "CLIPPER_MODEL_PATH" in os.environ:
+    #    path = str(os.environ["CLIPPER_MODEL_PATH"])
+    #else:
+    #    print("Clipper model path not found.")
 
     if "GPU_ID" in os.environ:
         gpu_id = int(os.environ["GPU_ID"])
@@ -153,6 +153,19 @@ if __name__ == "__main__":
         print("GPU id not set")
 
     print("Init model")
-    model = caffe2Container(path, input_type, gpu_id)
+
+    #model = caffe2Container(path, input_type, gpu_id)
+	
     rpc_service = rpc.RPCService()
-    rpc_service.start(model, ip, port, model_name, model_version, input_type)
+    try:
+        model = caffe2Container(rpc_service.get_model_path(),
+                                rpc_service.get_input_type(),
+				gpu_id)
+    	#model = caffe2Container(path, input_type, gpu_id)
+        sys.stdout.flush()
+        sys.stderr.flush()
+    except ImportError:
+        sys.exit(IMPORT_ERROR_RETURN_CODE)
+    rpc_service.start(model)
+
+    #rpc_service.start(model, ip, port, model_name, model_version, input_type)
