@@ -17,7 +17,7 @@ apps = [item for item in apps if item not in allocated_apps]
 
 for pair in itertools.combinations(apps, r=3):
     if abs(1 - (sum(pair))%1) <= THRESHOLD:
-        if pair[0] not in allocated_apps and pair[1] not in allocated_apps:
+        if not any(i in pair for i in allocated_apps):
             allocated_apps.add(pair[0])
             allocated_apps.add(pair[1])
             allocated_apps.add(pair[2])
