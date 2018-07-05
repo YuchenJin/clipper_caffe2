@@ -9,13 +9,15 @@ def run_test(datapath, rate, duration, output, app_id):
     gen.run(rate, duration)
     gen.output_latencies(output)
 
-def eval_face(sla, n):
-    def run(rps):
-        print('Test rps %s' % rps)
+def eval_game(sla, app_list):
+    def run(max_rps):
+        print('Test max rps %s' % max_rps)
         threads = []
         outputs = []
-        for i in range(n):
-            output = 'logs/lenet{}_sla{}_rate{}.txt'.format(n, i+1, sla, rps)
+        for i in range(len(app_list)):
+            output = 'logs/googlenet{}_sla{}_rate{}.txt'.format(i+1, sla, max_rps)
+	    rps = max_rps * float(app_list[i])/4.83375591
+	    print('App%d rps: %f' %(i+1, rps))
 	    if sla == 50:
 	        app_id_base = 1
 	    elif sla == 100:
@@ -47,24 +49,24 @@ def eval_face(sla, n):
             return False
         return True
         
-    duration = 10
+    duration = 100
     datapath = './resized_images/'
     print(datapath)
     print('Latency sla: %s ms' % sla)
-    print("Number of models: %s" % n)
+    print("Number of models: %s" % len(app_list))
     #run(rps)
 
-    rps = 50 
-    run(rps)
-    #while True:
-    #    good = run(rps)
-    #    if not good:
-    #        break
-    #    rps += 10
-    #for rps in np.arange(rps-9.5, rps, 0.5):
-    #    good = run(rps)
-    #    if not good:
-    #        break
+    rps = 10 
+    #run(rps)
+    while True:
+        good = run(rps)
+        if not good:
+            break
+        rps += 10
+    for rps in np.arange(rps-9.5, rps, 0.5):
+        good = run(rps)
+        if not good:
+            break
 
 def parse_result(fn):
     total, good = 0, 0
@@ -79,24 +81,22 @@ def main():
     #sla = int(sys.argv[1])
     #rps = float(sys.argv[2])
     #n = int(sys.argv[3])
+    if len(sys.argv) > 1:
+    	app_list = []
+    	for element in sys.argv[1:]:
+    	    app_list.append(element)
+    else:
+	print "usage %s element1 element2 [element3 ...]" % sys.argv[0]
+    	sys.exit(1)
+
+    print app_list
 
     FORMAT = "[%(asctime)-15s %(levelname)s] %(message)s"
     logging.basicConfig(format=FORMAT)
     logging.getLogger().setLevel(logging.INFO)
-    #eval_face(200, 2)
-    eval_face(50, 1)
-    #eval_face(100, 1)
-    #eval_face(1000, 1)
-    #eval_face(1000, 1)
-    #eval_face(50, 2)
-    #eval_face(100, 2)
-    #eval_face(200, 2)
-    #eval_face(50, 3)
-    #eval_face(100, 3)
-    #eval_face(200, 3)
-    #eval_face(50, 4)
-    #eval_face(100, 4)
-    #eval_face(200, 4)
+    eval_game(50, app_list)
+    #eval_game(100, app_list)
+    #eval_game(200, app_list)
 
 if __name__ == "__main__":
     main()
