@@ -1,15 +1,17 @@
 #!/usr/bin/env sh
 
 CONTAINER_SCRIPT_PATH=$1
+CLIPPER_MODEL_ID=$2
 IMPORT_ERROR_RETURN_CODE=3
 
-export CLIPPER_MODEL_NAME="googlenet1"
+export CLIPPER_MODEL_NAME="googlenet$CLIPPER_MODEL_ID"
+echo $CLIPPER_MODEL_NAME
 export CLIPPER_MODEL_VERSION="1"
 export CLIPPER_INPUT_TYPE="strings"
 export CLIPPER_MODEL_PATH="/hdfs/msrlabs/v-haicsh/nexus-models-nsdi/store/caffe2/bvlc_googlenet/"
 export CLIPPER_IP="localhost" #IP address of the frontend container
 export CLIPPER_PORT="7000" 
-export GPU_ID=$2
+export GPU_ID=$3
 echo $GPU_ID
 
 /bin/bash -c "exec python $CONTAINER_SCRIPT_PATH"
