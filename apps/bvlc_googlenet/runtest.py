@@ -10,18 +10,17 @@ def run_test(datapath, rate, duration, output, app_id):
     gen.output_latencies(output)
 
 def eval_game(sla, app_list):
-    def run(max_rps):
+    def run(max_rps, iteration):
         print('Test max rps %s' % max_rps)
         threads = []
         outputs = []
         for i in range(len(app_list)):
-            output = 'logs/googlenet{}_sla{}_rate{}.txt'.format(i+1, sla, max_rps)
-	    rps = max_rps * float(app_list[i])/4.83375591
+            output = 'logs/googlenet{}_sla{}_rate{}_iter{}.txt'.format(i+1, sla, max_rps, iteration)
+	    rps = max_rps * float(app_list[i])/3.66193629
+	    #rps = max_rps
 	    print('App%d rps: %f' %(i+1, rps))
-	    if sla == 50:
+	    if sla == 100:
 	        app_id_base = 1
-	    elif sla == 100:
-	        app_id_base = 5
 	    elif sla == 200:
 	        app_id_base = 9
 	    elif sla == 1000:
@@ -56,17 +55,24 @@ def eval_game(sla, app_list):
     print("Number of models: %s" % len(app_list))
     #run(rps)
 
-    rps = 10 
+    rps = 20 
     #run(rps)
     while True:
-        good = run(rps)
+        good = run(rps, 1)
         if not good:
-            break
+            good = run(rps,2)
+	    if not good:
+                good = run(rps,3)
+                break
         rps += 10
     for rps in np.arange(rps-9.5, rps, 0.5):
-        good = run(rps)
+        good = run(rps, 1)
         if not good:
-            break
+            good = run(rps,2)
+	    if not good:
+                good = run(rps,3)
+                break
+
 
 def parse_result(fn):
     total, good = 0, 0
@@ -86,7 +92,7 @@ def main():
     	for element in sys.argv[1:]:
     	    app_list.append(element)
     else:
-	print "usage %s element1 element2 [element3 ...]" % sys.argv[0]
+	print "Usage %s app1 app2 [app3 ...]" % sys.argv[0]
     	sys.exit(1)
 
     print app_list
@@ -94,7 +100,7 @@ def main():
     FORMAT = "[%(asctime)-15s %(levelname)s] %(message)s"
     logging.basicConfig(format=FORMAT)
     logging.getLogger().setLevel(logging.INFO)
-    eval_game(50, app_list)
+    eval_game(100, app_list)
     #eval_game(100, app_list)
     #eval_game(200, app_list)
 
