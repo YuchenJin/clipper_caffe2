@@ -58,12 +58,10 @@ def eval_game(sla, app_list):
     rps = 20 
     #run(rps)
     while True:
-        good = run(rps, 1)
-        if not good:
-            good = run(rps,2)
-	    if not good:
-                good = run(rps,3)
-                break
+	for i in range(10):
+	    good = run(rps, i)
+	    if good:
+	        break
         rps += 10
     for rps in np.arange(rps-9.5, rps, 0.5):
         good = run(rps, 1)
