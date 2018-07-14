@@ -55,7 +55,7 @@ class Worker(Thread):
 	    request.inputs['images'].CopyFrom(
 	        tf.contrib.util.make_tensor_proto(img, shape=[1]))
             start = datetime.now()
-	    result = stub.Predict(request, 10.0)
+	    result = stub.Predict(request, 50.0)
             end = datetime.now()
             lat = (end - start).total_seconds() * 1000.0
 
@@ -111,5 +111,5 @@ class Generator(object):
         with open(output, 'a') as fout:
             for worker in self.workers:
                 for img_idx, lat in worker.lats:
-                    fout.write('%s %s\n' % (img_idx, lat))
+                    fout.write('%s\n' % (lat))
         logging.info('Output latencies to %s' % output)

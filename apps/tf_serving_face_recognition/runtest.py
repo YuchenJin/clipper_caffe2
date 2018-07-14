@@ -58,7 +58,7 @@ def parse_result(fn):
     with open(fn) as f:
         for line in f:
 	    total += 1
-	    if "False" in line:
+	    if float(line.strip()) < 100:
 	        good += 1
     return good, total
 
