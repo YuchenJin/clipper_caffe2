@@ -55,13 +55,16 @@ class Worker(Thread):
 	    request.inputs['images'].CopyFrom(
 	        tf.contrib.util.make_tensor_proto(img, shape=[1]))
             start = datetime.now()
-	    result = stub.Predict(request, 50.0)
-            end = datetime.now()
-            lat = (end - start).total_seconds() * 1000.0
+	    try:
+	    	result = stub.Predict(request, 2.0)
+	    except:
+		self.lats.append((self.img_idx, 100000.0))
+	    else:
+            	end = datetime.now()
+            	lat = (end - start).total_seconds() * 1000.0
+                self.lats.append((self.img_idx, lat))
 
-            self.lats.append((self.img_idx, lat))
             self.img_idx = (self.img_idx + 1) % len(self.dataset.images)
-
 
 class Generator(object):
     def __init__(self, dataset, output, app_id):

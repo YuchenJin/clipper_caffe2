@@ -42,14 +42,17 @@ def eval_face(n):
     print("Number of models: %s" % n)
     #run(rps)
 
-    rps = 80
+    rps = 20
 
     while True:
 	for i in range(4):
 	    good = run(rps, i)
 	    if good:
 	        break
-        rps += 10
+	if good:
+            rps += 10
+	else:
+	    break
 
     for rps in np.arange(rps-9.5, rps, 0.5):
         good = run(rps)
@@ -61,7 +64,7 @@ def parse_result(fn):
     with open(fn) as f:
         for line in f:
 	    total += 1
-	    if float(line.strip()) < 100000:
+	    if float(line.strip()) < 100:
 	        good += 1
     return good, total
 
@@ -73,7 +76,7 @@ def main():
     FORMAT = "[%(asctime)-15s %(levelname)s] %(message)s"
     logging.basicConfig(format=FORMAT)
     logging.getLogger().setLevel(logging.INFO)
-    eval_face(2)
+    eval_face(3)
 
 if __name__ == "__main__":
     main()
