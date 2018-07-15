@@ -69,7 +69,7 @@ class Generator(object):
         self.queue = Queue()
         self.workers = []
         self.beg = None
-        for i in range(0, 500):
+        for i in range(0, 100):
             worker = Worker(i, dataset, self.queue, output, app_id)
             worker.start()
             self.workers.append(worker)
