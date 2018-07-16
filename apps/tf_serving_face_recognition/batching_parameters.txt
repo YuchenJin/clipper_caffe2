@@ -1,4 +1,4 @@
-max_batch_size { value: 9}
+max_batch_size { value: 13}
 batch_timeout_micros { value: 0}
 num_batch_threads { value: 24}
 max_enqueued_batches { value: 1000000}
