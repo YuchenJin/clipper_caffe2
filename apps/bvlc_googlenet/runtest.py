@@ -16,7 +16,7 @@ def eval_game(sla, app_list):
         outputs = []
         for i in range(len(app_list)):
             output = 'logs/googlenet{}_sla{}_rate{}_iter{}.txt'.format(i+1, sla, max_rps, iteration)
-	    rps = max_rps * float(app_list[i])/3.66193629
+	    rps = max_rps
 	    #rps = max_rps
 	    print('App%d rps: %f' %(i+1, rps))
 	    if sla == 100:
@@ -55,14 +55,17 @@ def eval_game(sla, app_list):
     print("Number of models: %s" % len(app_list))
     #run(rps)
 
-    rps = 20 
-    #run(rps)
+    rps = 80 
     while True:
-	for i in range(10):
+	for i in range(2):
 	    good = run(rps, i)
 	    if good:
 	        break
-        rps += 10
+	if good:
+            rps += 10
+	else:
+	    break
+
     for rps in np.arange(rps-9.5, rps, 0.5):
         good = run(rps, 1)
         if not good:

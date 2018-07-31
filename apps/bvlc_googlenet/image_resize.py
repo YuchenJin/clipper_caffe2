@@ -32,7 +32,7 @@ def rescale(img, input_height, input_width):
 
 def predict_function():
     max_count = 1999
-    data_dir = "/hdfs/msrlabs/v-haicsh/datasets/games/Fortnite/"
+    data_dir = "/datasets/games/Fortnite/"
     for fn in os.listdir(data_dir):
         #with open(os.path.join(data_dir, fn), 'rb') as f:
 	try:
