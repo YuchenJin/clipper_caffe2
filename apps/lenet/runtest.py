@@ -15,8 +15,7 @@ def eval_face(sla, n):
         threads = []
         outputs = []
         for i in range(n):
-            output = 'logs/lenet1_iter{}_{}_sla{}_rate{}.txt'.format(iteration, i+1, sla, rps)
-   	    rps = rps * 4.0961935960077902 * 6
+            output = 'logs_2/lenet1_iter{}_{}_sla{}_rate{}.txt'.format(iteration, i+1, sla, rps)
 	    if sla == 100:
 	        app_id_base = 1
 	    elif sla == 200:
@@ -46,16 +45,16 @@ def eval_face(sla, n):
             return False
         return True
         
-    duration = 50
+    duration = 100
     datapath = './resized_images/'
     print(datapath)
     print('Latency sla: %s ms' % sla)
     print("Number of models: %s" % n)
     #run(rps)
 
-    rps = 20
+    rps = 200
     while True:
-	for i in range(10):
+	for i in range(5):
 	    good = run(rps, i)
 	    if good:
 	        break
