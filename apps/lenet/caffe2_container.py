@@ -11,6 +11,7 @@ import skimage.io
 import skimage.transform
 import base64
 from StringIO import StringIO
+import json
 
 
 def predict_function(net_def, device_opts, imgs):
@@ -53,6 +54,8 @@ class caffe2Container(rpc.ModelContainerBase):
             self.net_def.device_option.CopyFrom(self.device_opts)
             workspace.CreateNet(self.net_def, overwrite=True)
 
+	with open('resized_images/frame1.jpg', 'rb') as f: 
+	    self.predict_strings([base64.b64encode(f.read())])
 
     def predict_strings(self, inputs):
         imgs = []
