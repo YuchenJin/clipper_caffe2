@@ -48,15 +48,5 @@ def predict_function():
 	except:
 	    pass
 
-    #curr_img = skimage.io.imread("flower.jpg")
-    #img = skimage.img_as_float(curr_img).astype(np.float32)
-    #img = img.swapaxes(1, 2).swapaxes(0, 1)
-    #img = rescale(img, 224, 224)
-    #img = crop_center(img, 224, 224)
-    #img = img.swapaxes(1, 2).swapaxes(0, 1)
-    #img = img[(2, 1, 0), :, :]
-    #img = img * 255 - 128
-    #imsave('test_img.jpg', img)
-
 predict_function()
 

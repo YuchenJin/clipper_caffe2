@@ -15,7 +15,7 @@ def eval_face(sla, n):
         threads = []
         outputs = []
         for i in range(n):
-            output = 'logs_2/lenet1_iter{}_{}_sla{}_rate{}.txt'.format(iteration, i+1, sla, rps)
+            output = 'logs/lenet1_iter{}_{}_sla{}_rate{}.txt'.format(iteration, i+1, sla, rps)
 	    if sla == 100:
 	        app_id_base = 1
 	    elif sla == 200:
