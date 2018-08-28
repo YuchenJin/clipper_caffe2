@@ -1,4 +1,95 @@
-FROM nvidia/cuda@sha256:33add9c50ab76b8f3a92187c0418ed600d5bea27690fda40711122fdc28ce2f4
+FROM nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04
+
+RUN apt-get -y update && \
+    apt-get -y install \
+    build-essential \
+      autotools-dev \
+      rsync \
+      curl \
+      wget \
+      jq \
+      openssh-server \
+      openssh-client \
+      sudo \
+      cmake \
+      g++ \
+      python-pip \
+      gcc \
+    # ifconfig
+      net-tools  \
+      iputils-ping  \
+      vim \
+      fish  \
+      tmux && \
+    apt-get autoremove
+
+RUN apt-get install -y g++ automake wget autoconf autoconf-archive libtool libboost-all-dev \
+    libevent-dev libdouble-conversion-dev libgoogle-glog-dev libgflags-dev liblz4-dev \
+    liblzma-dev libsnappy-dev make zlib1g-dev binutils-dev libjemalloc-dev libssl-dev \
+    pkg-config libiberty-dev git cmake libev-dev libhiredis-dev libzmq5 libzmq5-dev build-essential
+
+## Install Folly
+RUN git clone https://github.com/facebook/folly \
+    && cd folly/folly \
+    && git checkout tags/v2017.08.14.00 \
+    && autoreconf -ivf \
+    && ./configure \
+    && make -j4 \
+    && make install
+
+## Install Cityhash
+RUN git clone https://github.com/google/cityhash \
+    && cd cityhash \
+    && ./configure \
+    && make all check CXXFLAGS="-g -O3" \
+    && make install
+
+COPY ./ /clipper
+
+RUN  cd /clipper \
+    && ./configure --cleanup-quiet \
+    && ./configure --release \
+    && cd release \
+    && make -j8 management_frontend \
+    && make -j8 query_frontend
+
+# Install Redis.
+RUN \
+  cd /tmp && \
+  wget http://download.redis.io/redis-stable.tar.gz && \
+  tar xvzf redis-stable.tar.gz && \
+  cd redis-stable && \
+  make && \
+  make install && \
+  cp -f src/redis-sentinel /usr/local/bin && \
+  mkdir -p /etc/redis && \
+  cp -f *.conf /etc/redis && \
+  rm -rf /tmp/redis-stable* && \
+  sed -i 's/^\(bind .*\)$/# \1/' /etc/redis/redis.conf && \
+  sed -i 's/^\(daemonize .*\)$/# \1/' /etc/redis/redis.conf && \
+  sed -i 's/^\(dir .*\)$/# \1\ndir \/data/' /etc/redis/redis.conf && \
+  sed -i 's/^\(logfile .*\)$/# \1/' /etc/redis/redis.conf
+
+# Define mountable directories.
+VOLUME ["/data"]
+
+# Define working directory.
+WORKDIR /data
+
+ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
+
+# Define default command.
+CMD ["redis-server", "/etc/redis/redis.conf"]
+
+# Expose ports.
+EXPOSE 6379
+EXPOSE 1338
+EXPOSE 1337
+EXPOSE 7000
+
+#RUN pip install numpy scikit-learn requests
+RUN cd ~ && git clone https://github.com/YuchenJin/clipper_caffe2.git
+                
 
 # Environment variables
 ENV STAGE_DIR=/root/gpu/install \
@@ -13,7 +104,7 @@ RUN mkdir -p $STAGE_DIR
 
 RUN apt-get -y update && \
     apt-get -y install \
-      build-essential \
+    build-essential \
       autotools-dev \
       rsync \
       curl \
@@ -92,7 +183,7 @@ RUN wget -q -O - https://www.open-mpi.org/software/ompi/v${OPENMPI_VERSIONBASE}/
 ENV PATH=/usr/local/mpi/bin:$PATH \
     LD_LIBRARY_PATH=/usr/local/lib:/usr/local/mpi/lib:/usr/local/mpi/lib64:$LD_LIBRARY_PATH
 
-ENV LD_LIBRARY_PATH /usr/local/cuda/lib64:/usr/local/cuda/lib64/stubs:$LD_LIBRARY_PATH
+#ENV LD_LIBRARY_PATH /usr/local/cuda/lib64:/usr/local/cuda/lib64/stubs:$LD_LIBRARY_PATH
 
 #RUN ln -s /usr/include/cudnn.h /usr/local/cuda/include/
 #RUN ln -s /usr/lib/x86_64-linux-gnu/libcudnn.so /usr/local/cuda/lib64/
@@ -119,22 +210,97 @@ RUN apt-get install -y curl grep sed dpkg && \
     rm tini.deb && \
     apt-get clean
 
-#ENTRYPOINT [ "/usr/bin/tini", "--" ]
+ENTRYPOINT [ "/usr/bin/tini", "--" ]
 
 RUN mkdir -p /model \
       && apt-get update \
-      && apt-get install -y libzmq5 libzmq5-dev redis-server libsodium18 build-essential
+      && apt-get install -y libzmq5 libzmq5-dev libsodium18 build-essential
 
-RUN conda install -c caffe2 caffe2-cuda9.0-cudnn7
+RUN conda install -c caffe2 caffe2-cuda9.0-cudnn7=0.8.dev=py27_2018.05.14 
+#RUN rm -rf /etc/apt/sources.list.d/*
+#RUN apt-get update && apt-get install -y --no-install-recommends \
+#    libgflags-dev \
+#    libgoogle-glog-dev \
+#    libgtest-dev \
+#    libiomp-dev \
+#    libleveldb-dev \
+#    liblmdb-dev \
+#    libopencv-dev \
+#    libprotobuf-dev \
+#    libsnappy-dev \
+#    protobuf-compiler \
+#    python-dev \
+#    python-numpy \
+#    python-pip \
+#    python-pydot \
+#    python-setuptools \
+#    python-scipy \
+#    wget \
+#    && rm -rf /var/lib/apt/lists/*
+#
+#RUN pip install --no-cache-dir --upgrade pip setuptools wheel
+#RUN pip install --no-cache-dir \
+#    Cython \
+#    flask \
+#    future \
+#    graphviz \
+#    hypothesis \
+#    jupyter \
+#    matplotlib \
+#    mock \
+#    numpy>=1.13 \
+#    opencv-python>=3.2 \
+#    protobuf \
+#    pydot \
+#    python-nvd3 \
+#    pyyaml>=3.12 \
+#    requests \
+#    scikit-image \
+#    scipy \
+#    setuptools \
+#    six \
+#    tornado
+#
+#
+#RUN apt-get install -y --no-install-recommends libgflags-dev
 
-RUN cd / && git clone https://github.com/ucbrise/clipper.git
+#RUN cd / && git clone --recursive -b tmp https://github.com/uwsaml/nexus.git
+#RUN cd /nexus && make -j$(nproc) caffe2
+
+#RUN cd / && git clone https://github.com/icemelon9/caffe2.git && cd caffe2 && git submodule update --init --recursive \
+#RUN cd / && git clone https://github.com/icemelon9/caffe2.git && cd caffe2 \
+#    && mkdir build && cd build \
+#    && cmake .. \
+#       -DCUDA_ARCH_NAME=Manual \
+#       -DCUDA_ARCH_BIN="35 52 60 61" \
+#       -DCUDA_ARCH_PTX="61" \
+#       -DUSE_NNPACK=OFF \
+#       -DUSE_NCCL=ON \
+#       -DUSE_ROCKSDB=OFF \
+#       -DCMAKE_INSTALL_PREFIX=/usr/local/caffe2 \
+#    && make -j"$(nproc)" install 
+#RUN cd / && git clone --recursive https://github.com/pytorch/pytorch.git && cd pytorch \
+#    && git submodule update --init \
+#    && mkdir build \
+#    && cd build \
+#    && cmake ..\ 
+#       -DCUDA_ARCH_NAME=Manual \
+#       -DCUDA_ARCH_BIN="35 52 60 61" \
+#       -DCUDA_ARCH_PTX="61" \
+#       -DUSE_NNPACK=OFF \
+#       -DUSE_NCCL=ON \
+#       -DUSE_ROCKSDB=OFF \
+#       -DUSE_MPI=OFF\
+#       -DCMAKE_INSTALL_PREFIX=/usr/local/caffe2 \
+#    && make install
+#
+#ENV LD_LIBRARY_PATH $LD_LIBRARY_PATH:/usr/local/caffe2/lib
 
 RUN cd /clipper/clipper_admin/ \
     && pip install .
 
-RUN pip install numpy 
-
 RUN cd / && git clone https://github.com/YuchenJin/clipper_caffe2.git
+RUN conda install numpy scikit-learn requests
 
 
 #COPY models/squeezenet/init_net.pb models/squeezenet/predict_net.pb /model/modules/
