@@ -9,7 +9,7 @@ def run_test(datapath, rate, duration, output, app_id):
     gen.run(rate, duration)
     gen.output_latencies(output)
 
-def eval_face(sla, n):
+def eval_lenet(sla, n):
     def run(rps, iteration):
         print('Test rps %s' % rps)
         threads = []
@@ -81,20 +81,7 @@ def main():
     FORMAT = "[%(asctime)-15s %(levelname)s] %(message)s"
     logging.basicConfig(format=FORMAT)
     logging.getLogger().setLevel(logging.INFO)
-    #eval_face(200, 2)
-    #eval_face(50, 1)
-    eval_face(100, 1)
-    #eval_face(1000, 1)
-    #eval_face(1000, 1)
-    #eval_face(50, 2)
-    #eval_face(100, 2)
-    #eval_face(200, 2)
-    #eval_face(50, 3)
-    #eval_face(100, 3)
-    #eval_face(200, 3)
-    #eval_face(50, 4)
-    #eval_face(100, 4)
-    #eval_face(200, 4)
+    eval_lenet(sys.argv[1], sys.argv[2])
 
 if __name__ == "__main__":
-    main()
+    kain()
