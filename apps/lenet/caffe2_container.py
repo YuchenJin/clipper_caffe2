@@ -54,7 +54,7 @@ class caffe2Container(rpc.ModelContainerBase):
             self.net_def.device_option.CopyFrom(self.device_opts)
             workspace.CreateNet(self.net_def, overwrite=True)
 
-	with open('resized_images/frame1.jpg', 'rb') as f: 
+	with open('resized_images/frame407.jpg', 'rb') as f: 
 	    self.predict_strings([base64.b64encode(f.read())])
 
     def predict_strings(self, inputs):
