@@ -14,7 +14,7 @@ def eval_lenet(sla, n):
         print('Test rps %s' % rps)
         threads = []
         outputs = []
-        for i in range(n):
+        for i in range(int(n)):
             output = 'logs/lenet1_iter{}_{}_sla{}_rate{}.txt'.format(iteration, i+1, sla, rps)
 	    if sla == 100:
 	        app_id_base = 1
@@ -81,7 +81,7 @@ def main():
     FORMAT = "[%(asctime)-15s %(levelname)s] %(message)s"
     logging.basicConfig(format=FORMAT)
     logging.getLogger().setLevel(logging.INFO)
-    eval_lenet(sys.argv[1], sys.argv[2])
+    eval_lenet(int(sys.argv[1]), int(sys.argv[2]))
 
 if __name__ == "__main__":
-    kain()
+    main()
