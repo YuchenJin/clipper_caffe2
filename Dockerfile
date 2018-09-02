@@ -28,6 +28,9 @@ RUN apt-get install -y g++ automake wget autoconf autoconf-archive libtool libbo
     liblzma-dev libsnappy-dev make zlib1g-dev binutils-dev libjemalloc-dev libssl-dev \
     pkg-config libiberty-dev git cmake libev-dev libhiredis-dev libzmq5 libzmq5-dev build-essential
 
+RUN cd / && git clone https://github.com/YuchenJin/clipper_caffe2.git
+RUN cd /clipper_caffe2/ && git pull
+
 ## Install Folly
 RUN git clone https://github.com/facebook/folly \
     && cd folly/folly \
@@ -88,7 +91,7 @@ EXPOSE 1337
 EXPOSE 7000
 
 #RUN pip install numpy scikit-learn requests
-RUN cd ~ && git clone https://github.com/YuchenJin/clipper_caffe2.git
+#RUN cd ~ && git clone https://github.com/YuchenJin/clipper_caffe2.git
                 
 
 # Environment variables
@@ -299,7 +302,6 @@ RUN conda install -c caffe2 caffe2-cuda9.0-cudnn7=0.8.dev=py27_2018.05.14
 RUN cd /clipper/clipper_admin/ \
     && pip install .
 
-RUN cd / && git clone https://github.com/YuchenJin/clipper_caffe2.git
 RUN conda install numpy scikit-learn requests
 
 
