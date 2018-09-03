@@ -13,17 +13,14 @@ import tensorflow as tf
 
 
 def predict_function(sess, imgs, x, y):
-    NCHW_batch = np.zeros((len(imgs),3,227,227))
+    NHWC_batch = np.zeros((len(imgs),227,227,3))
 
     for i, curr_img in enumerate(imgs):
-	curr_img = skimage.io.imread(StringIO(curr_img))
+        curr_img = skimage.io.imread(StringIO(curr_img))
         img = skimage.img_as_float(curr_img).astype(np.float32)
-	#img = img.swapaxes(1, 2).swapaxes(0, 1)
-	#img = img[(2, 1, 0), :, :]
-        img = img * 255 - 128
-        NCHW_batch[i] = img
+        NHWC_batch[i] = img
 
-    results = sess.run(y, feed_dict={x:NCHW_batch})
+    results = sess.run(y, feed_dict={x:NHWC_batch})
     return results
 
 def load_graph(frozen_graph_filename):
@@ -84,6 +81,3 @@ if __name__ == "__main__":
     except ImportError:
         sys.exit(IMPORT_ERROR_RETURN_CODE)
     rpc_service.start(model)
-    #model = TensorflowContainer("/nexus-models-nsdi/store/tensorflow/squeezenet_dummy/",
-#				"string",
-#				3)
