@@ -12,6 +12,11 @@ import json
 import tensorflow as tf
 
 
+def tf_warmup(sess, num_images, x, y):
+    NHWC_batch = np.zeros((num_images,224,224,3))
+    results = sess.run(y, feed_dict={x:NHWC_batch})
+    return results
+
 def predict_function(sess, imgs, x, y):
     NHWC_batch = np.zeros((len(imgs),224,224,3))
 
@@ -47,6 +52,9 @@ class TensorflowContainer(rpc.ModelContainerBase):
 		graph=graph,
 		config=tf.ConfigProto(log_device_placement=False,gpu_options=tf.GPUOptions(allow_growth=True,visible_device_list=str(gpu_id))))
 
+	for i in range(129):
+	    tf_warmup(self.sess, i, self.input, self.output)
+	
     def predict_strings(self, inputs):
         imgs = []
         for i in range(len(inputs)):
