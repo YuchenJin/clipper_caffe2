@@ -4,6 +4,7 @@ CONTAINER_SCRIPT_PATH=$1
 export CLIPPER_MODEL_NAME=$2
 IMPORT_ERROR_RETURN_CODE=3
 
+export TF_CUDNN_USE_AUTOTUNE=0
 export CLIPPER_MODEL_VERSION="1"
 export CLIPPER_INPUT_TYPE="strings"
 export CLIPPER_MODEL_PATH="/nexus-models-nsdi/store/tensorflow/inception/1"

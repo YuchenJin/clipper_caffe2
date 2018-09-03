@@ -52,8 +52,9 @@ class TensorflowContainer(rpc.ModelContainerBase):
 		graph=graph,
 		config=tf.ConfigProto(log_device_placement=False,gpu_options=tf.GPUOptions(allow_growth=True,visible_device_list=str(gpu_id))))
 
-	for i in range(129):
-	    tf_warmup(self.sess, i, self.input, self.output)
+	#for i in range(129):
+	#    tf_warmup(self.sess, i, self.input, self.output)
+	tf_warmup(self.sess, 128, self.input, self.output)
 	
     def predict_strings(self, inputs):
         imgs = []
