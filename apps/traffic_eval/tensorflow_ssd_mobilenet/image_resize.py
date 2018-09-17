@@ -8,6 +8,7 @@ import skimage.transform
 import base64
 from StringIO import StringIO
 from skimage.io import imsave
+import cv2
 
 def crop_center(img,cropx,cropy):
     y,x,c = img.shape
@@ -35,11 +36,12 @@ def predict_function():
     data_dir = "images/"
     for fn in os.listdir(data_dir):
 	try:
-            curr_img = skimage.io.imread(os.path.join(data_dir, fn))
-            img = skimage.img_as_float(curr_img).astype(np.float32)
-            img = rescale(img, 300,300)
-            img = crop_center(img, 300, 300)
-            imsave('./resized_images/{}'.format(fn), img)
+            #curr_img = skimage.io.imread(os.path.join(data_dir, fn))
+            curr_img = cv2.imread(os.path.join(data_dir, fn), 1)
+	    curr_img = cv2.cvtColor(curr_img, cv2.COLOR_BGR2RGB) 
+	    img = cv2.resize(curr_img, (300, 300))
+	    cv2.imwrite('./resized_images/{}'.format(fn), img)
+            #imsave('./resized_images/{}'.format(fn), img)
 	    max_count -= 1
             if max_count <= 0:
                 break

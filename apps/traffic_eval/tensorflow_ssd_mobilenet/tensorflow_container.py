@@ -23,7 +23,12 @@ def load_image_into_numpy_array(image):
 
 def tf_warmup(sess, num_images, x, o1, o2, o3):
     #NHWC_batch = np.zeros((num_images,300,300,3))
-    image = skimage.io.imread("images/image2.jpg")
+    #image = skimage.io.imread("images/image2.jpg")
+    #image = skimage.transform.resize(image, [300,300])
+
+    image = cv2.imread("resized_images/image2.jpg", 1)
+    #image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+
     #NHWC_batch[0] = kk 
     #NHWC_batch = np.zeros((num_images,300,300,3))
     #image = cv2.imread("images/image1.jpg")
@@ -34,8 +39,7 @@ def tf_warmup(sess, num_images, x, o1, o2, o3):
     #print(type(resized_images))
 
 
-    image = cv2.resize(image, (300, 300))
-    print(type(image))
+    #image = cv2.resize(image, (300, 300))
     #im_width, im_height = image.size
 
     #image_np = load_image_into_numpy_array(image)
