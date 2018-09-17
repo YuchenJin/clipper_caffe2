@@ -11,40 +11,47 @@ from StringIO import StringIO
 import json
 import tensorflow as tf
 import image_resize
+import cv2
 from PIL import Image
 
 
 def load_image_into_numpy_array(image):
   (im_width, im_height) = image.size
+  print(im_width, im_height)
   return np.array(image.getdata()).reshape(
       (im_height, im_width, 3)).astype(np.uint8)
 
 def tf_warmup(sess, num_images, x, o1, o2, o3):
     #NHWC_batch = np.zeros((num_images,300,300,3))
-    #kk = skimage.io.imread("resized_images/image2.jpg")
+    image = skimage.io.imread("images/image2.jpg")
     #NHWC_batch[0] = kk 
     #NHWC_batch = np.zeros((num_images,300,300,3))
+    #image = cv2.imread("images/image1.jpg")
 
-    image = Image.open("images/image2.jpg")
-    im_width, im_height = image.size
+    #image = Image.open("images/image2.jpg")
+    #resized_images=tf.image.resize_images(image, [300, 300])
+    #resized_images.set_shape((300, 300, 3))
+    #print(type(resized_images))
 
-    image_np = load_image_into_numpy_array(image)
-    image_np_expanded = np.expand_dims(image_np, axis=0)
+
+    image = cv2.resize(image, (300, 300))
+    print(type(image))
+    #im_width, im_height = image.size
+
+    #image_np = load_image_into_numpy_array(image)
+    #image_np_expanded = np.expand_dims(image_np, axis=0)
+    image_np_expanded = np.expand_dims(image, axis=0)
 
     results = sess.run([o1, o2, o3], feed_dict={x:image_np_expanded})
 
-    boxes = results[1]
-    ymin = int((boxes[0][0][0]*im_height))
-    xmin = int((boxes[0][0][1]*im_width))
-    ymax = int((boxes[0][0][2]*im_height))
-    xmax = int((boxes[0][0][3]*im_width))
+    #boxes = results[1]
+    #ymin = int((boxes[0][0][0]*im_height))
+    #xmin = int((boxes[0][0][1]*im_width))
+    #ymax = int((boxes[0][0][2]*im_height))
+    #xmax = int((boxes[0][0][3]*im_width))
 
-    Result = np.array(image_np[ymin:ymax,xmin:xmax])
+    #Result = np.array(image_np[ymin:ymax,xmin:xmax])
 
-    #(left, right, top, bottom) = (xmin * im_width, xmax * im_width,
-    #                              ymin * im_height, ymax * im_height)
-    print(Result)
-    
     return results
 
 def predict_function(sess, imgs, x, y):
