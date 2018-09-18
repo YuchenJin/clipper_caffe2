@@ -10,7 +10,6 @@ import base64
 from StringIO import StringIO
 import json
 import tensorflow as tf
-import image_resize
 import cv2
 from PIL import Image
 
@@ -23,10 +22,12 @@ def load_image_into_numpy_array(image):
 
 def tf_warmup(sess, num_images, x, o1, o2, o3):
     NHWC_batch = np.zeros((num_images,300,300,3))
-    image = cv2.imread("resized_images/image2.jpg", 1)
+    #image = cv2.imread("resized_images/image2.jpg", 1)
+    #image_np_expanded = np.expand_dims(image, axis=0)
     #image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
-    #NHWC_batch[0] = kk 
+    #NHWC_batch[0] = image_np_expanded
+    #NHWC_batch[1] = image_np_expanded
     #NHWC_batch = np.zeros((num_images,300,300,3))
     #image = cv2.imread("images/image1.jpg")
 
@@ -41,9 +42,8 @@ def tf_warmup(sess, num_images, x, o1, o2, o3):
 
     #image_np = load_image_into_numpy_array(image)
     #image_np_expanded = np.expand_dims(image_np, axis=0)
-    image_np_expanded = np.expand_dims(image, axis=0)
 
-    results = sess.run([o1, o2, o3], feed_dict={x:image_np_expanded})
+    results = sess.run([o1, o2, o3], feed_dict={x:NHWC_batch})
 
     return results
 
@@ -53,7 +53,7 @@ def predict_function(sess, imgs, x, y):
     for i, curr_img in enumerate(imgs):
         #curr_img = skimage.io.imread(StringIO(curr_img))
         #img = skimage.img_as_float(curr_img).astype(np.float32)
-	curr_img = cv2.imread(StringIO(curr_img), 1)
+	curr_img = cv2.imread((curr_img), 1)
 	image_np_expanded = np.expand_dims(curr_img, axis=0) 	
         NHWC_batch[i] = image_np_expanded
 
@@ -86,10 +86,10 @@ class TensorflowContainer(rpc.ModelContainerBase):
 		graph=graph,
 		config=tf.ConfigProto(log_device_placement=False,gpu_options=tf.GPUOptions(allow_growth=True,visible_device_list=str(gpu_id))))
 
-	#for i in range(129):
-	#    tf_warmup(self.sess, i, self.input, self.output)
-	a =  tf_warmup(self.sess, 1, self.input, self.output1, self.output2, self.output3)
-	print(a)
+	for i in range(1,50):
+	   # tf_warmup(self.sess, i, self.input, self.output3)
+	    tf_warmup(self.sess, i, self.input, self.output1, self.output2, self.output3)
+	#print(a)
 	
     def predict_strings(self, inputs):
         imgs = []
@@ -106,7 +106,6 @@ class TensorflowContainer(rpc.ModelContainerBase):
     
     
 if __name__ == "__main__":
-    print('ll')
     print("Starting Tensorflow container")
 
     if "GPU_ID" in os.environ:
@@ -117,17 +116,17 @@ if __name__ == "__main__":
     print("Init model")
 
     rpc_service = rpc.RPCService()
-    #try:
-    #    model = TensorflowContainer(rpc_service.get_model_path(),
-    #                            rpc_service.get_input_type(),
-    #    			gpu_id)
-    #    sys.stdout.flush()
-    #    sys.stderr.flush()
-    #except ImportError:
-    #    sys.exit(IMPORT_ERROR_RETURN_CODE)
-    #rpc_service.start(model)
+    try:
+        model = TensorflowContainer(rpc_service.get_model_path(),
+                                rpc_service.get_input_type(),
+        			gpu_id)
+        sys.stdout.flush()
+        sys.stderr.flush()
+    except ImportError:
+        sys.exit(IMPORT_ERROR_RETURN_CODE)
+    rpc_service.start(model)
 
 	
-    model = TensorflowContainer(rpc_service.get_model_path(),
-                                rpc_service.get_input_type(),
-        			2)
+    #model = TensorflowContainer(rpc_service.get_model_path(),
+    #                            rpc_service.get_input_type(),
+    #    			2)

@@ -15,7 +15,7 @@ def eval_inception(sla, n):
         threads = []
         outputs = []
         for i in range(int(n)):
-            output = 'logs/resnet{}_iter{}_sla{}_rate{}.txt'.format(i+1, iteration, sla, rps)
+            output = 'logs/mobilenet{}_iter{}_sla{}_rate{}.txt'.format(i+1, iteration, sla, rps)
 	    if sla == 50:
 	        app_id_base = 1
 	    elif sla == 200:
@@ -45,14 +45,14 @@ def eval_inception(sla, n):
             return False
         return True
         
-    duration = 50
-    datapath = './resized_images/'
+    duration = 20
+    datapath = './resized_images/jackson_day/'
     print(datapath)
     print('Latency sla: %s ms' % sla)
     print("Number of models: %s" % n)
     #run(rps)
 
-    rps = 70
+    rps = 10
     while True:
 	for i in range(3):
 	    good = run(rps, i)
