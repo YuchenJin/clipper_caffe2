@@ -12,7 +12,7 @@ import base64
 
 
 class Dataset(object):
-    def __init__(self, data_dir, max_count=5000):
+    def __init__(self, data_dir, max_count=10):
         self.images = []
         for fn in os.listdir(data_dir):
             #with open(os.path.join(data_dir, fn), 'rb') as f:

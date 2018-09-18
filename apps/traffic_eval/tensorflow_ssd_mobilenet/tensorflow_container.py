@@ -20,7 +20,7 @@ def load_image_into_numpy_array(image):
   return np.array(image.getdata()).reshape(
       (im_height, im_width, 3)).astype(np.uint8)
 
-def tf_warmup(sess, num_images, x, o3):
+def tf_warmup(sess, num_images, x, o1, o3):
     NHWC_batch = np.zeros((num_images,300,300,3))
     #curr_img = cv2.imread('resized_images/image1.jpg', 1)
     #retval, img_encoded = cv2.imencode('.jpg', curr_img)
@@ -30,12 +30,12 @@ def tf_warmup(sess, num_images, x, o3):
     #curr_img = cv2.imdecode(jpg_as_np, flags=1)
 
     #image_np_expanded = np.expand_dims(curr_img, axis=0) 	
-    NHWC_batch[0] = image_np_expanded
+    #NHWC_batch[0] = image_np_expanded
     
-    results = sess.run([o3], feed_dict={x:NHWC_batch})
+    results = sess.run([o1, o3], feed_dict={x:NHWC_batch})
     return results
 
-def predict_function(sess, imgs, x, y):
+def predict_function(sess, imgs, x, o1, o3):
     NHWC_batch = np.zeros((len(imgs),300,300,3))
 
     for i, curr_img in enumerate(imgs):
@@ -45,9 +45,18 @@ def predict_function(sess, imgs, x, y):
         image_np_expanded = np.expand_dims(curr_img, axis=0) 	
         NHWC_batch[i] = image_np_expanded
 
-    print(NHWC_batch)
-    results = sess.run(y, feed_dict={x:NHWC_batch})
-    return results
+    #print(NHWC_batch)
+    results = sess.run([o1, o3], feed_dict={x:NHWC_batch})
+    results_str = []
+
+    for i in range(len(imgs)):
+        num_object = int(results[0][i])
+        objects = [results[1][i][0:num_object]]
+        cars = np.count_nonzero(objects == np.float32(3)) + np.count_nonzero(objects == np.float(8))
+        people = np.count_nonzero(objects == np.float32(1))
+    
+    	results_str.append(','.join((str(cars), str(people))))
+    return results_str
 
 def load_graph(frozen_graph_filename):
     with tf.gfile.GFile(frozen_graph_filename, "rb") as f:
@@ -76,7 +85,7 @@ class TensorflowContainer(rpc.ModelContainerBase):
 		config=tf.ConfigProto(log_device_placement=False,gpu_options=tf.GPUOptions(allow_growth=True,visible_device_list=str(gpu_id))))
 
 	for i in range(1,2):
-	    tf_warmup(self.sess, i, self.input, self.output3)
+	    tf_warmup(self.sess, i, self.input, self.output1, self.output3)
 	    #tf_warmup(self.sess, i, self.input, self.output1, self.output2, self.output3)
 	#print(a)
 	
@@ -87,7 +96,7 @@ class TensorflowContainer(rpc.ModelContainerBase):
     	    jpg_as_np = np.frombuffer(img_bgr, dtype=np.uint8); 
     	    curr_img = cv2.imdecode(jpg_as_np, flags=1)
             imgs.append(curr_img)
-        preds = self.predict_func(self.sess, imgs, self.input, self.output3)
+        preds = self.predict_func(self.sess, imgs, self.input, self.output1, self.output3)
 	
 	result = []
 	for i in range(len(preds)):
