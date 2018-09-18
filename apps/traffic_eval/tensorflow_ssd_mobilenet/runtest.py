@@ -54,12 +54,12 @@ def eval_inception(sla, n):
 
     rps = 10
     while True:
-	for i in range(3):
+	for i in range(5):
 	    good = run(rps, i)
 	    if good:
 	        break
 	if good:
-            rps += 20
+            rps += 10
 	else:
 	    break
     for rps in np.arange(rps-9.5, rps, 0.5):
