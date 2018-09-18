@@ -46,13 +46,13 @@ def eval_inception(sla, n):
         return True
         
     duration = 20
-    datapath = './resized_images/jackson_day/'
+    datapath = './resized_images/'
     print(datapath)
     print('Latency sla: %s ms' % sla)
     print("Number of models: %s" % n)
     #run(rps)
 
-    rps = 10
+    rps = 30
     while True:
 	for i in range(5):
 	    good = run(rps, i)
