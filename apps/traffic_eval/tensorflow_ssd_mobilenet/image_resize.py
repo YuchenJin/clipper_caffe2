@@ -4,6 +4,7 @@ import sys
 import glob
 import numpy as np
 import skimage.io
+from datetime import datetime
 import skimage.transform
 import base64
 from StringIO import StringIO
@@ -32,21 +33,28 @@ def rescale(img, input_height, input_width):
     return imgScaled
 
 def predict_function():
-    max_count = 1999
-    data_dir = "images/"
+    max_count = 5000
+    data_dir = "/datasets/traffic/jackson_day/"
+    lat_list = []
     for fn in os.listdir(data_dir):
 	try:
             #curr_img = skimage.io.imread(os.path.join(data_dir, fn))
+	    start = datetime.now()
             curr_img = cv2.imread(os.path.join(data_dir, fn), 1)
 	    curr_img = cv2.cvtColor(curr_img, cv2.COLOR_BGR2RGB) 
 	    img = cv2.resize(curr_img, (300, 300))
-	    cv2.imwrite('./resized_images/{}'.format(fn), img)
+	    end = datetime.now()
+	    lat = (end - start).total_seconds() * 1000.0
+	    lat_list.append(lat)
+	    cv2.imwrite('./resized_images/jackson_day/{}'.format(fn), img)
             #imsave('./resized_images/{}'.format(fn), img)
 	    max_count -= 1
             if max_count <= 0:
                 break
 	except:
 	    pass
+    print(lat_list)
+    print(sum(lat_list)/len(lat_list))
 
 predict_function()
 
