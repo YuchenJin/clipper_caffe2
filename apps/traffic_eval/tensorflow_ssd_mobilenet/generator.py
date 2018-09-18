@@ -28,9 +28,38 @@ class Dataset(object):
     def rand_idx(self):
         return random.randint(0, len(self.images) - 1)
 
+class car_Worker(Thread):
+    def __init__(self, output, app_id): 
+     	Thread.__init__(self)
+	self.output = output
+	self.app_id = app_id
+	
+    def run(self):
+        with open("car_images/image1.jpg", 'rb') as f:
+	    img = base64.b64encode(f.read())
+        headers = {"Content-type": "application/json"}
+        r = requests.post("http://localhost:1337/car_app{}/predict".format(self.app_id), headers=headers, data=json.dumps({"input": img})).json()
+        print r['output']
+        with open(self.output, 'a') as fout:
+            fout.write(str(r) + "\n")
+
+class person_Worker(Thread):
+    def __init__(self, output, app_id): 
+     	Thread.__init__(self)
+	self.output = output
+	self.app_id = app_id
+	
+    def run(self):
+        with open("car_images/image1.jpg", 'rb') as f:
+	    img = base64.b64encode(f.read())
+        headers = {"Content-type": "application/json"}
+        r = requests.post("http://localhost:1337/vgg_app{}/predict".format(self.app_id), headers=headers, data=json.dumps({"input": img})).json()
+        print r['output']
+        with open(self.output, 'a') as fout:
+            fout.write(str(r) + "\n")
 
 class Worker(Thread):
-    def __init__(self, idx, dataset, queue, output, app_id):
+    def __init__(self, idx, dataset, queue, output, app_id, car_output, face_output):
         super(Worker, self).__init__()
         self.daemon = True
         self.index = idx
@@ -39,8 +68,9 @@ class Worker(Thread):
         self.lats = []
         self.img_idx = random.randint(0, len(self.dataset.images) - 1)
         self.output= output
+        self.car_output= car_output
+        self.face_output= face_output
 	self.app_id = app_id
-
 
     def run(self):
         while True:
@@ -52,23 +82,30 @@ class Worker(Thread):
             start = datetime.now()
             r = requests.post("http://localhost:1337/mobilenet_app{}/predict".format(self.app_id), headers=headers, data=json.dumps({"input": img})).json()
             end = datetime.now()
-            print r
+            num_car = int(r['output'].split(',')[0])
+            num_person = int(r['output'].split(',')[1])
             with open(self.output, 'a') as fout:
                 fout.write(str(r) + "\n")
             lat = (end - start).total_seconds() * 1000.0
 
             self.lats.append((self.img_idx, lat))
             self.img_idx = (self.img_idx + 1) % len(self.dataset.images)
+	    for i in range(num_car):
+	    	car_thread = car_Worker(self.car_output, "1")
+		car_thread.start()
+	    for i in range(num_person):
+	    	person_thread = person_Worker(self.face_output, "1")
+		person_thread.start()
 
 
 class Generator(object):
-    def __init__(self, dataset, output, app_id):
+    def __init__(self, dataset, output, app_id, car_output, face_output):
         self.dataset = dataset
         self.queue = Queue()
         self.workers = []
         self.beg = None
         for i in range(0, 300):
-            worker = Worker(i, dataset, self.queue, output, app_id)
+            worker = Worker(i, dataset, self.queue, output, app_id, car_output, face_output)
             worker.start()
             self.workers.append(worker)
 

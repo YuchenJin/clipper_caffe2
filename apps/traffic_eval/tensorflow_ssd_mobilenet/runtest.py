@@ -3,9 +3,9 @@ import sys
 from generator import *
 
 
-def run_test(datapath, rate, duration, output, app_id):
+def run_test(datapath, rate, duration, output, app_id, car_output, face_output):
     dataset = Dataset(datapath)
-    gen = Generator(dataset, output, app_id)
+    gen = Generator(dataset, output, app_id, car_output, face_output)
     gen.run(rate, duration)
     gen.output_latencies(output)
 
@@ -16,6 +16,8 @@ def eval_inception(sla, n):
         outputs = []
         for i in range(int(n)):
             output = 'logs/mobilenet{}_iter{}_sla{}_rate{}.txt'.format(i+1, iteration, sla, rps)
+	    car_output = 'logs/car{}_iter{}_sla{}_rate{}.txt'.format(i+1, iteration, sla, rps)
+            face_output = 'logs/face{}_iter{}_sla{}_rate{}.txt'.format(i+1, iteration, sla, rps)
 	    if sla == 50:
 	        app_id_base = 1
 	    elif sla == 200:
@@ -25,7 +27,7 @@ def eval_inception(sla, n):
 	    else:
 		print("Invalid sla")
 		sys.exit()
-            t = Thread(target=run_test, args=(datapath, rps, duration, output, str(i+app_id_base)))
+            t = Thread(target=run_test, args=(datapath, rps, duration, output, str(i+app_id_base), car_output, face_output))
 	    t.daemon = True
             threads.append(t)
             outputs.append(output)
