@@ -2,6 +2,7 @@ import os
 import glob
 import time
 import random
+import cv2
 import logging
 from threading import Thread
 from multiprocessing import Queue
@@ -11,11 +12,16 @@ import base64
 
 
 class Dataset(object):
-    def __init__(self, data_dir, max_count=1999):
+    def __init__(self, data_dir, max_count=5000):
         self.images = []
         for fn in os.listdir(data_dir):
-            with open(os.path.join(data_dir, fn), 'rb') as f:
-                self.images.append(base64.b64encode(f.read()))
+            #with open(os.path.join(data_dir, fn), 'rb') as f:
+                #self.images.append(base64.b64encode(f.read()))
+            #    self.images.append(base64.b64encode(cv2.imread('fn', 1)))
+	    curr_img = cv2.imread(os.path.join(data_dir, fn), 1)    
+	    retval, img_encoded = cv2.imencode('.jpg', curr_img)
+	    jpg_as_text = base64.b64encode(img_encoded)
+ 	    self.images.append(jpg_as_text)
             if max_count > 0 and len(self.images) >= max_count:
                 break
 
@@ -44,9 +50,9 @@ class Worker(Thread):
             img = self.dataset.images[self.img_idx]
             headers = {"Content-type": "application/json"}
             start = datetime.now()
-            r = requests.post("http://localhost:1337/resnet_app{}/predict".format(self.app_id), headers=headers, data=json.dumps({"input": img})).json()
+            r = requests.post("http://localhost:1337/mobilenet_app{}/predict".format(self.app_id), headers=headers, data=json.dumps({"input": img})).json()
             end = datetime.now()
-            #print r
+            print r
             with open(self.output, 'a') as fout:
                 fout.write(str(r) + "\n")
             lat = (end - start).total_seconds() * 1000.0

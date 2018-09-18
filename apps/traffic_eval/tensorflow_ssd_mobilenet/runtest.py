@@ -45,7 +45,7 @@ def eval_inception(sla, n):
             return False
         return True
         
-    duration = 20
+    duration = 10
     datapath = './resized_images/jackson_day/'
     print(datapath)
     print('Latency sla: %s ms' % sla)
