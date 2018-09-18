@@ -11,7 +11,7 @@ import base64
 
 
 class Dataset(object):
-    def __init__(self, data_dir, max_count=1000):
+    def __init__(self, data_dir, max_count=1999):
         self.images = []
         for fn in os.listdir(data_dir):
             with open(os.path.join(data_dir, fn), 'rb') as f:
@@ -44,7 +44,7 @@ class Worker(Thread):
             img = self.dataset.images[self.img_idx]
             headers = {"Content-type": "application/json"}
             start = datetime.now()
-            r = requests.post("http://localhost:1337/face-recognition{}/predict".format(self.app_id), headers=headers, data=json.dumps({"input": img})).json()
+            r = requests.post("http://localhost:1337/vgg_app{}/predict".format(self.app_id), headers=headers, data=json.dumps({"input": img})).json()
             end = datetime.now()
             #print r
             with open(self.output, 'a') as fout:
@@ -61,7 +61,7 @@ class Generator(object):
         self.queue = Queue()
         self.workers = []
         self.beg = None
-        for i in range(0, 500):
+        for i in range(0, 300):
             worker = Worker(i, dataset, self.queue, output, app_id)
             worker.start()
             self.workers.append(worker)

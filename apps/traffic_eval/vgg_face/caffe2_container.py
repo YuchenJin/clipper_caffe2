@@ -12,28 +12,6 @@ import skimage.transform
 import base64
 from StringIO import StringIO
 
-
-def crop_center(img,cropx,cropy):
-    y,x,c = img.shape
-    startx = x//2-(cropx//2)
-    starty = y//2-(cropy//2)    
-    return img[starty:starty+cropy,startx:startx+cropx]
-
-def rescale(img, input_height, input_width):
-    # Get original aspect ratio
-    aspect = img.shape[1]/float(img.shape[0])
-    if(aspect>1):
-        # landscape orientation - wide image
-        res = int(aspect * input_height)
-        imgScaled = skimage.transform.resize(img, (input_width, res))
-    if(aspect<1):
-        # portrait orientation - tall image
-        res = int(input_width/aspect)
-        imgScaled = skimage.transform.resize(img, (res, input_height))
-    if(aspect == 1):
-        imgScaled = skimage.transform.resize(img, (input_width, input_height))
-    return imgScaled
-
 def predict_function(net_def, device_opts, imgs):
     NCHW_batch = np.zeros((len(imgs),3,224,224))
 
@@ -62,7 +40,7 @@ class caffe2Container(rpc.ModelContainerBase):
         INIT_NET = "{dir}/init_net.pb".format(dir=modules_folder_path)
         PREDICT_NET = "{dir}/predict_net.pb".format(dir=modules_folder_path)
 	
-	with open('/hdfs/msrlabs/v-haicsh/nexus-models-nsdi/store/caffe2/vgg_face/names.txt', 'rb') as fd:
+	with open('/nexus-models-nsdi/store/caffe2/vgg_face/names.txt', 'rb') as fd:
 	     self.cns = [l.rstrip() for l in fd]
 	
         self.predict_func = predict_function
@@ -94,58 +72,9 @@ class caffe2Container(rpc.ModelContainerBase):
    
 	return result
     
-    #def predict_bytes(self, inputs):
-    #    imgs = []
-    #    for i in range(len(inputs)):
-    #        img_bgr = cv2.imdecode(inputs[i], cv2.CV_LOAD_IMAGE_COLOR)
-    #        imgs.append(img_bgr)
-
-    #    preds = self.predict_func(self.net_def, self.device_opts, imgs)
-
     
 if __name__ == "__main__":
     print("Starting Caffe2 container")
-    #try:
-    #    model_name = os.environ["CLIPPER_MODEL_NAME"]
-    #except KeyError:
-    #    print(
-    #        "ERROR: CLIPPER_MODEL_NAME environment variable must be set",
-    #        file=sys.stdout)
-    #    sys.exit(1)
-
-    #try:
-    #    model_version = os.environ["CLIPPER_MODEL_VERSION"]
-    #except KeyError:
-    #    print(
-    #        "ERROR: CLIPPER_MODEL_VERSION environment variable must be set",
-    #        file=sys.stdout)
-    #    sys.exit(1)
-
-    ##ip = "localhost"
-    #if "CLIPPER_IP" in os.environ:
-    #    ip = os.environ["CLIPPER_IP"]
-    #else:
-    #    print(
-    #        "ERROR: CLIPPER_IP environment variable must be set",
-    #        file=sys.stdout)
-    #    sys.exit(1)
-
-    #port = 7000
-    #if "CLIPPER_PORT" in os.environ:
-    #    port = int(os.environ["CLIPPER_PORT"])
-    #else:
-    #    print("Connecting to Clipper with default port: 7000")
-
-    #input_type = "strings"
-    #if "CLIPPER_INPUT_TYPE" in os.environ:
-    #    input_type = os.environ["CLIPPER_INPUT_TYPE"]
-    #else:
-    #    print("Using default input type: strings")
-
-    #if "CLIPPER_MODEL_PATH" in os.environ:
-    #    path = str(os.environ["CLIPPER_MODEL_PATH"])
-    #else:
-    #    print("Clipper model path not found.")
 
     if "GPU_ID" in os.environ:
         gpu_id = int(os.environ["GPU_ID"])

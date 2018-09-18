@@ -1,15 +1,16 @@
 #!/usr/bin/env sh
 
 CONTAINER_SCRIPT_PATH=$1
+export CLIPPER_MODEL_NAME=$2
 IMPORT_ERROR_RETURN_CODE=3
 
-export CLIPPER_MODEL_NAME="vgg-face1"
+export TF_CUDNN_USE_AUTOTUNE=0
 export CLIPPER_MODEL_VERSION="1"
 export CLIPPER_INPUT_TYPE="strings"
-export CLIPPER_MODEL_PATH="/hdfs/msrlabs/v-haicsh/nexus-models-nsdi/store/caffe2/vgg_face/1"
-export CLIPPER_IP="10.0.1.93" #IP address of the frontend container
+export CLIPPER_MODEL_PATH="/nexus-models-nsdi/store/caffe2/vgg_face/"
+export CLIPPER_IP="localhost" #IP address of the frontend container
 export CLIPPER_PORT="7000" 
-export GPU_ID=$2
+export GPU_ID=$3
 echo $GPU_ID
 
 /bin/bash -c "exec python $CONTAINER_SCRIPT_PATH"

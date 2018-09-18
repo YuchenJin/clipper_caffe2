@@ -9,19 +9,19 @@ def run_test(datapath, rate, duration, output, app_id):
     gen.run(rate, duration)
     gen.output_latencies(output)
 
-def eval_face(sla, n):
-    def run(rps):
+def eval_inception(sla, n):
+    def run(rps, iteration):
         print('Test rps %s' % rps)
         threads = []
         outputs = []
-        for i in range(n):
-            output = 'logs/{}models/vgg_face{}_sla{}_rate{}.txt'.format(n, i+1, sla, rps)
+        for i in range(int(n)):
+            output = 'logs/vgg_face{}_iter{}_sla{}_rate{}.txt'.format(i+1, iteration, sla, rps)
 	    if sla == 50:
 	        app_id_base = 1
-	    elif sla == 100:
-	        app_id_base = 5
 	    elif sla == 200:
 	        app_id_base = 9
+	    elif sla == 1000:
+	        app_id_base = 13
 	    else:
 		print("Invalid sla")
 		sys.exit()
@@ -45,8 +45,8 @@ def eval_face(sla, n):
             return False
         return True
         
-    duration = 100
-    datapath = './resized_images/'
+    duration = 20
+    datapath = './resized_images/jackson_day/'
     print(datapath)
     print('Latency sla: %s ms' % sla)
     print("Number of models: %s" % n)
@@ -54,12 +54,16 @@ def eval_face(sla, n):
 
     rps = 10
     while True:
-        good = run(rps)
-        if not good:
-            break
-        rps += 10
+	for i in range(5):
+	    good = run(rps, i)
+	    if good:
+	        break
+	if good:
+            rps += 10
+	else:
+	    break
     for rps in np.arange(rps-9.5, rps, 0.5):
-        good = run(rps)
+        good = run(rps, 1)
         if not good:
             break
 
@@ -73,26 +77,10 @@ def parse_result(fn):
     return good, total
 
 def main():
-    #sla = int(sys.argv[1])
-    #rps = float(sys.argv[2])
-    #n = int(sys.argv[3])
-
     FORMAT = "[%(asctime)-15s %(levelname)s] %(message)s"
     logging.basicConfig(format=FORMAT)
     logging.getLogger().setLevel(logging.INFO)
-    #eval_face(sla, rps, n)
-    eval_face(50, 1)
-    eval_face(100, 1)
-    eval_face(200, 1)
-    eval_face(50, 2)
-    eval_face(100, 2)
-    eval_face(200, 2)
-    eval_face(50, 3)
-    eval_face(100, 3)
-    eval_face(200, 3)
-    eval_face(50, 4)
-    eval_face(100, 4)
-    eval_face(200, 4)
+    eval_inception(int(sys.argv[1]), int(sys.argv[2]))
 
 if __name__ == "__main__":
     main()
