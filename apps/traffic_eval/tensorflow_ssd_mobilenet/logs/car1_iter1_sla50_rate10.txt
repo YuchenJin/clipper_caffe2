@@ -1,0 +1,1190 @@
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1782}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1783}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1784}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1785}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1786}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1787}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1788}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1789}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1790}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1791}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1792}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1795}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1796}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1799}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1800}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1801}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1802}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1803}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1804}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1805}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1806}
+{u'default': True, u'output': -1.0, u'query_id': 1807, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1808, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1810, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1809, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1815, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1813, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1812, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1818}
+{u'default': True, u'output': -1.0, u'query_id': 1819, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1820, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1821, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1823, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1822, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1825, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1826, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1827, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1824, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1829, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1830, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1828, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1831, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1832, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1841}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1842}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1843}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1844}
+{u'default': True, u'output': -1.0, u'query_id': 1845, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1846, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1847, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1852, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1848, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1850, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1853, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1849, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1851, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1858}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1859}
+{u'default': True, u'output': -1.0, u'query_id': 1860, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1861, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1862, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1863, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1864, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1865, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1866, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1868, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1867, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1873, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1869, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1870, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1872, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1879}
+{u'default': True, u'output': -1.0, u'query_id': 1880, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1881, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1883, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1882, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1884, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1885, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1886, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1888, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1887, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1890, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1896}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1897}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1898}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1899}
+{u'default': True, u'output': -1.0, u'query_id': 1901, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1900, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1904, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1902, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1903, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1905, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1907, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1906, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1910, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1913}
+{u'default': True, u'output': -1.0, u'query_id': 1914, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1915, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1918, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1916, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1917, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1919, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1921, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1920, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1924, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1925, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1928}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1929}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1930}
+{u'default': True, u'output': -1.0, u'query_id': 1932, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1931, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1935, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1933, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1934, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1938, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1939, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1941, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1937, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1940, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1942, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1943, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1951}
+{u'default': True, u'output': -1.0, u'query_id': 1953, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1952, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1957, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1954, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1955, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1956, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1958, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1959, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1970}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1971}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1972}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1973}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1974}
+{u'default': True, u'output': -1.0, u'query_id': 1975, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1978, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1977, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1979, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1980, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1981, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 1985}
+{u'default': True, u'output': -1.0, u'query_id': 1986, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1987, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1988, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1989, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1990, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1991, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1992, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1994, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1993, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1995, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1996, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1997, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 1999, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2001, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2006}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2007}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2008}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2009}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2010}
+{u'default': True, u'output': -1.0, u'query_id': 2011, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2012, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2013, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2014, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2016, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2017, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2018, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2019, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2020, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2021, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2027}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2028}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2029}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2030}
+{u'default': True, u'output': -1.0, u'query_id': 2031, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2032, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2037}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2038}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2039}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2040}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2041}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2042}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2043}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2044}
+{u'default': True, u'output': -1.0, u'query_id': 2045, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2046, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2048, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2054}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2055}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2056}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2057}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2058}
+{u'default': True, u'output': -1.0, u'query_id': 2059, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2060, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2061, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2062, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2064, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2068}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2069}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2070}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2071}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2072}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2073}
+{u'default': True, u'output': -1.0, u'query_id': 2074, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2078, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2076, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2075, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2077, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2083}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2084}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2085}
+{u'default': True, u'output': -1.0, u'query_id': 2086, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2087, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2088, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2089, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2091, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2096, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2092, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2094, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2090, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2093, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2100}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2101}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2102}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2103}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2104}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2105}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2106}
+{u'default': True, u'output': -1.0, u'query_id': 2107, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2109, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2119}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2120}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2121}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2122}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2123}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2124}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2125}
+{u'default': True, u'output': -1.0, u'query_id': 2129, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2126}
+{u'default': True, u'output': -1.0, u'query_id': 2127, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2131, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2134}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2135}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2136}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2137}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2138}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2141}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2144}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2145}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2146}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2147}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2148}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2149}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2150}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2151}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2153}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2152}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2154}
+{u'default': True, u'output': -1.0, u'query_id': 2155, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2157, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2161}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2162}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2163}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2164}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2165}
+{u'default': True, u'output': -1.0, u'query_id': 2167, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2166}
+{u'default': True, u'output': -1.0, u'query_id': 2170, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2168, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2169, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2175}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2176}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2177}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2178}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2179}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2180}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2181}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2182}
+{u'default': True, u'output': -1.0, u'query_id': 2183, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2184, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2185, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2186, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2188, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2187, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2190, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2196}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2197}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2198}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2199}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2200}
+{u'default': True, u'output': -1.0, u'query_id': 2201, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2202, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2204, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2208, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2209, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2203, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2211}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2212}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2213}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2214}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2215}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2216}
+{u'default': True, u'output': -1.0, u'query_id': 2222, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2220, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2221, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2224, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2217, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2218, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2219, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2223, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2226, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2225, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2229}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2230}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2231}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2232}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2233}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2234}
+{u'default': True, u'output': -1.0, u'query_id': 2236, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2235, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2238, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2237, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2239, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2241, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2242, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2240, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2243, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2248}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2249}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2250}
+{u'default': True, u'output': -1.0, u'query_id': 2254, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2253, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2251, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2252, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2255, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2256, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2257, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2258, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2259, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2261, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2265}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2266}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2267}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2268}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2269}
+{u'default': True, u'output': -1.0, u'query_id': 2270, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2271, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2272, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2273, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2284}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2285}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2286}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2287}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2288}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2289}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2290}
+{u'default': True, u'output': -1.0, u'query_id': 2292, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2291}
+{u'default': True, u'output': -1.0, u'query_id': 2293, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2294, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2299}
+{u'default': True, u'output': -1.0, u'query_id': 2300, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2303, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2301, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2304, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2306, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2305, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2302, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2307, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2311, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2308, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2313, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2310, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2309, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2312, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2314, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2317}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2318}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2319}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2320}
+{u'default': True, u'output': -1.0, u'query_id': 2321, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2328, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2322, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2326, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2325, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2329, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2323, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2327, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2324, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2334}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2335}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2336}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2337}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2338}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2339}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2340}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2341}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2342}
+{u'default': True, u'output': -1.0, u'query_id': 2343, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2348}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2349}
+{u'default': True, u'output': -1.0, u'query_id': 2350, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2351, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2353, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2352, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2354, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2355, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2357, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2356, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2358, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2365, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2363, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2361, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2360, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2359, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2366}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2367}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2368}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2369}
+{u'default': True, u'output': -1.0, u'query_id': 2370, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2373, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2376, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2372, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2371, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2374, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2377, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2383}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2384}
+{u'default': True, u'output': -1.0, u'query_id': 2385, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2386, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2387, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2390, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2388, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2389, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2391, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2392, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2393, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2394, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2396, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2400, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2397, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2395, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2401}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2402}
+{u'default': True, u'output': -1.0, u'query_id': 2404, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2403, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2408, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2406, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2407, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2409, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2405, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2411, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2415, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2414, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2410, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2413, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2417, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2420}
+{u'default': True, u'output': -1.0, u'query_id': 2421, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2424, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2423, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2422, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2427, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2426, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2428, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2425, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2430, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2429, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2432, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2433, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2436, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2434, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2441}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2442}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2443}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2444}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2445}
+{u'default': True, u'output': -1.0, u'query_id': 2447, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2450, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2449, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2452, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2453, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2455, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2458}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2459}
+{u'default': True, u'output': -1.0, u'query_id': 2462, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2461, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2463, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2460, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2464}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2465}
+{u'default': True, u'output': -1.0, u'query_id': 2467, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2469, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2466, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2475}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2476}
+{u'default': True, u'output': -1.0, u'query_id': 2477, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2478, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2479, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2480, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2483, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2481, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2484, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2486, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2482, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2485, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2488, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2492, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2491, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2494}
+{u'default': True, u'output': -1.0, u'query_id': 2495, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2496, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2499, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2498, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2497, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2500, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2506, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2502, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2501, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2504, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2507, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2508, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2505, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2509, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2515}
+{u'default': True, u'output': -1.0, u'query_id': 2516, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2517, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2519, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2518, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2520, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2522, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2521, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2523, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2534}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2535}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2536}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2537}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2538}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2539}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2540}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2541}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2542}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2544}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2545}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2546}
+{u'default': True, u'output': -1.0, u'query_id': 2548, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2547, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2550, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2555}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2556}
+{u'default': True, u'output': -1.0, u'query_id': 2557, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2558, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2560, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2561, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2564, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2563, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2562, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2565, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2566, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2570}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2571}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2572}
+{u'default': True, u'output': -1.0, u'query_id': 2573, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2576, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2575, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2574, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2578, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2577, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2579, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2581, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2580, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2583, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2582, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2584, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2589}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2590}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2591}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2592}
+{u'default': True, u'output': -1.0, u'query_id': 2593, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2594, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2595, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2596, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2597, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2598, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2603}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2604}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2605}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2606}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2607}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2608}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2610}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2611}
+{u'default': True, u'output': -1.0, u'query_id': 2614, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2613}
+{u'default': True, u'output': -1.0, u'query_id': 2615, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2620}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2621}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2622}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2623}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2624}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2625}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2630}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2631}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2632}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2633}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2634}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2635}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2636}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2637}
+{u'default': True, u'output': -1.0, u'query_id': 2638, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2640, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2639, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2644, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2641, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2643, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2642, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2649}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2650}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2651}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2652}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2653}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2654}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2655}
+{u'default': True, u'output': -1.0, u'query_id': 2657, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2656}
+{u'default': True, u'output': -1.0, u'query_id': 2658, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2659, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2660, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2661, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2662, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2666, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2670}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2671}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2672}
+{u'default': True, u'output': -1.0, u'query_id': 2673, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2675, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2674, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2676, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2677, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2678, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2679, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2683, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2682, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2681, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2680, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2685, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2689}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2690}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2691}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2692}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2693}
+{u'default': True, u'output': -1.0, u'query_id': 2694, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2695, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2696, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2697, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2698, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2699, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2700, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2702, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2701, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2705, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2708}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2709}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2710}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2711}
+{u'default': True, u'output': -1.0, u'query_id': 2713, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2712, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2715, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2714, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2716, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2720, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2717, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2725}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2726}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2727}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2728}
+{u'default': True, u'output': -1.0, u'query_id': 2729, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2732, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2735}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2736}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2737}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2738}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2739}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2740}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2741}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2742}
+{u'default': True, u'output': -1.0, u'query_id': 2747, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2743, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2744, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2745, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2746, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2752}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2753}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2754}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2755}
+{u'default': True, u'output': -1.0, u'query_id': 2756, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2757, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2758, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2759, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2761, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2771}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2772}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2773}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2774}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2775}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2776}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2777}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2778}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2779}
+{u'default': True, u'output': -1.0, u'query_id': 2780, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2781, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2784, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2783, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2785, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2788, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2794}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2795}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2796}
+{u'default': True, u'output': -1.0, u'query_id': 2798, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2797}
+{u'default': True, u'output': -1.0, u'query_id': 2800, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2804}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2805}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2806}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2807}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2808}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2809}
+{u'default': True, u'output': -1.0, u'query_id': 2810, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2811, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2812, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2813, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2814, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2815, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2816, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2817, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2818, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2823}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2824}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2825}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2826}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2827}
+{u'default': True, u'output': -1.0, u'query_id': 2828, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2830, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2829, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2831, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2832, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2834, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2833, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2835, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2836, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2837, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2844}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2845}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2846}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2847}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2848}
+{u'default': True, u'output': -1.0, u'query_id': 2849, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2850, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2851, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2852, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2853, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2855, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2859}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2860}
+{u'default': True, u'output': -1.0, u'query_id': 2861, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2865, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2864, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2866, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2863, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2862, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2867, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2868, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2869, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2871, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2870, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2876}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2877}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2878}
+{u'default': True, u'output': -1.0, u'query_id': 2879, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2883, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2880, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2885, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2882, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2881, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2886, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2884, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2887, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2888, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2889, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2891, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2897}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2898}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2899}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2900}
+{u'default': True, u'output': -1.0, u'query_id': 2901, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2904, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2902, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2903, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2905, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2907, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2906, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2908, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2909, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2914}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2915}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2916}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2917}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2918}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2919}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2924}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2925}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2926}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2927}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2928}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2929}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2930}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2932}
+{u'default': True, u'output': -1.0, u'query_id': 2935, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2934, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2933, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2941}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2942}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2943}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2944}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2945}
+{u'default': True, u'output': -1.0, u'query_id': 2947, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2946}
+{u'default': True, u'output': -1.0, u'query_id': 2948, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2949, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2950, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2951, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2958}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2959}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2960}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2961}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2962}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2963}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2964}
+{u'default': True, u'output': -1.0, u'query_id': 2969, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2966, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2968, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2967, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2965, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2970, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2971, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2972, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2979}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2980}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2981}
+{u'default': True, u'output': -1.0, u'query_id': 2982, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2983, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2984, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2989}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2990}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2991}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2992}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2993}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 2994}
+{u'default': True, u'output': -1.0, u'query_id': 2995, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2996, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2997, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2998, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 2999, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3000, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3001, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3004, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3003, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3012}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3013}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3014}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3015}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3016}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3017}
+{u'default': True, u'output': -1.0, u'query_id': 3018, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3019, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3020, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3021, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3023, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3022, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3024, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3025, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3026, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3035}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3036}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3037}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3038}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3039}
+{u'default': True, u'output': -1.0, u'query_id': 3040, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3042, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3041, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3044, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3047, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3045, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3046, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3043, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3050, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3049, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3052, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3053}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3054}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3055}
+{u'default': True, u'output': -1.0, u'query_id': 3056, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3058, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3059, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3063}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3064}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3065}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3066}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3067}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3068}
+{u'default': True, u'output': -1.0, u'query_id': 3069, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3070, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3071, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3075, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3072, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3073, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3076, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3080}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3081}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3082}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3083}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3084}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3085}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3086}
+{u'default': True, u'output': -1.0, u'query_id': 3088, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3087, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3099}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3100}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3101}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3102}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3103}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3104}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3105}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3106}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3107}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3118}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3119}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3120}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3121}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3122}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3123}
+{u'default': True, u'output': -1.0, u'query_id': 3124, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3125, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3126, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3127, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3128, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3129, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3131, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3135}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3136}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3137}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3138}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3139}
+{u'default': True, u'output': -1.0, u'query_id': 3140, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3141, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3144, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3147, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3145, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3142, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3146, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3143, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3152}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3153}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3154}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3156}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3157}
+{u'default': True, u'output': -1.0, u'query_id': 3158, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3162}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3163}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3164}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3165}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3166}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3167}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3168}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3169}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3170}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3171}
+{u'default': True, u'output': -1.0, u'query_id': 3173, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3172, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3174, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3179}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3180}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3181}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3182}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3183}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3184}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3185}
+{u'default': True, u'output': -1.0, u'query_id': 3186, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3187, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3189, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3191, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3196}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3197}
+{u'default': True, u'output': -1.0, u'query_id': 3198, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3199, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3200, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3202, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3201, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3203, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3206, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3204, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3205, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3213}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3214}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3215}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3216}
+{u'default': True, u'output': -1.0, u'query_id': 3218, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3217, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3221, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3220, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3219, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3224, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3222, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3230}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3231}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3232}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3233}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3234}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3235}
+{u'default': True, u'output': -1.0, u'query_id': 3236, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3237, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3238, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3240, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3239, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3241, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3243, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3242, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3245, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3251}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3252}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3253}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3254}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3255}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3256}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3257}
+{u'default': True, u'output': -1.0, u'query_id': 3258, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3259, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3270}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3271}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3272}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3273}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3274}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3275}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3280}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3281}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3282}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3283}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3284}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3285}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3286}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3287}
+{u'default': True, u'output': -1.0, u'query_id': 3289, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3290, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3288, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3292, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3291, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3297}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3298}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3299}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3300}
+{u'default': True, u'output': -1.0, u'query_id': 3303, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3304, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3301}
+{u'default': True, u'output': -1.0, u'query_id': 3302, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3308, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3306, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3305, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3314}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3315}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3316}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3317}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3318}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3319}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3320}
+{u'default': True, u'output': -1.0, u'query_id': 3321, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3324, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3327, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3326, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3329, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3323, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3325, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3322, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3333}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3334}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3335}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3336}
+{u'default': True, u'output': -1.0, u'query_id': 3337, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3338, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3343}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3344}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3345}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3346}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3347}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3348}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3349}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3350}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3351}
+{u'default': True, u'output': -1.0, u'query_id': 3353, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3352}
+{u'default': True, u'output': -1.0, u'query_id': 3354, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3355, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3356, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3358, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3366}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3367}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3368}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3369}
+{u'default': True, u'output': -1.0, u'query_id': 3370, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3371, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3376}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3377}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3378}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3379}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3380}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3381}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3382}
+{u'default': True, u'output': -1.0, u'query_id': 3383, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3384, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3385, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3388, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3393}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3394}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3395}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3396}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3397}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3398}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3403}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3404}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3405}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3406}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3407}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3408}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3413}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3414}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3415}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3416}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3417}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3418}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3419}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3420}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3421}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3422}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3423}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3424}
+{u'default': True, u'output': -1.0, u'query_id': 3426, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3425, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3427, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3432}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3433}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3434}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3435}
+{u'default': True, u'output': -1.0, u'query_id': 3436, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3437, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3438, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3439, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3440, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3442, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3444, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3443, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3441, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3449}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3450}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3451}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3452}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3453}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3454}
+{u'default': True, u'output': -1.0, u'query_id': 3455, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3456, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3457, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3458, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3459, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3461, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3462, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3466}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3467}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3468}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3469}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3470}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3471}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3472}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3473}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3474}
+{u'default': False, u'output': u'Chevy:Sail hatchback', u'query_id': 3475}
+{u'default': True, u'output': -1.0, u'query_id': 3476, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3477, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3478, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3479, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3481, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}
+{u'default': True, u'output': -1.0, u'query_id': 3482, u'default_explanation': u'Failed to retrieve a prediction response within the specified latency SLO'}

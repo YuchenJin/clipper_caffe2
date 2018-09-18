@@ -45,7 +45,6 @@ def predict_function(sess, imgs, x, o1, o3):
         image_np_expanded = np.expand_dims(curr_img, axis=0) 	
         NHWC_batch[i] = image_np_expanded
 
-    #print(NHWC_batch)
     results = sess.run([o1, o3], feed_dict={x:NHWC_batch})
     results_str = []
 

@@ -53,7 +53,7 @@ def predict_function():
                 break
 	except:
 	    pass
-    print(lat_list)
+    #print(lat_list)
     print(sum(lat_list)/len(lat_list))
 
 predict_function()

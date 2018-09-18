@@ -1,0 +1,11 @@
+{u'default': False, u'output': u'13,3', u'query_id': 8144}
+{u'default': False, u'output': u'11,3', u'query_id': 8145}
+{u'default': False, u'output': u'11,5', u'query_id': 8148}
+{u'default': False, u'output': u'15,7', u'query_id': 8159}
+{u'default': False, u'output': u'15,5', u'query_id': 8164}
+{u'default': False, u'output': u'15,5', u'query_id': 8173}
+{u'default': False, u'output': u'13,3', u'query_id': 8180}
+{u'default': False, u'output': u'15,3', u'query_id': 8191}
+{u'default': False, u'output': u'11,3', u'query_id': 8204}
+{u'default': False, u'output': u'6,3', u'query_id': 8226}
+{u'default': False, u'output': u'11,5', u'query_id': 8313}
