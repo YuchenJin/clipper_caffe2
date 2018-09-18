@@ -22,10 +22,7 @@ def load_image_into_numpy_array(image):
       (im_height, im_width, 3)).astype(np.uint8)
 
 def tf_warmup(sess, num_images, x, o1, o2, o3):
-    #NHWC_batch = np.zeros((num_images,300,300,3))
-    #image = skimage.io.imread("images/image2.jpg")
-    #image = skimage.transform.resize(image, [300,300])
-
+    NHWC_batch = np.zeros((num_images,300,300,3))
     image = cv2.imread("resized_images/image2.jpg", 1)
     #image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
@@ -48,23 +45,17 @@ def tf_warmup(sess, num_images, x, o1, o2, o3):
 
     results = sess.run([o1, o2, o3], feed_dict={x:image_np_expanded})
 
-    #boxes = results[1]
-    #ymin = int((boxes[0][0][0]*im_height))
-    #xmin = int((boxes[0][0][1]*im_width))
-    #ymax = int((boxes[0][0][2]*im_height))
-    #xmax = int((boxes[0][0][3]*im_width))
-
-    #Result = np.array(image_np[ymin:ymax,xmin:xmax])
-
     return results
 
 def predict_function(sess, imgs, x, y):
     NHWC_batch = np.zeros((len(imgs),300,300,3))
 
     for i, curr_img in enumerate(imgs):
-        curr_img = skimage.io.imread(StringIO(curr_img))
-        img = skimage.img_as_float(curr_img).astype(np.float32)
-        NHWC_batch[i] = img
+        #curr_img = skimage.io.imread(StringIO(curr_img))
+        #img = skimage.img_as_float(curr_img).astype(np.float32)
+	curr_img = cv2.imread(StringIO(curr_img), 1)
+	image_np_expanded = np.expand_dims(curr_img, axis=0) 	
+        NHWC_batch[i] = image_np_expanded
 
     results = sess.run(y, feed_dict={x:NHWC_batch})
     return results
@@ -105,7 +96,7 @@ class TensorflowContainer(rpc.ModelContainerBase):
         for i in range(len(inputs)):
             img_bgr = base64.b64decode(inputs[i])
             imgs.append(img_bgr)
-        preds = self.predict_func(self.sess, imgs, self.input, self.output)
+        preds = self.predict_func(self.sess, imgs, self.input, self.output3)
 	
 	result = []
 	for i in range(len(preds)):
@@ -115,6 +106,7 @@ class TensorflowContainer(rpc.ModelContainerBase):
     
     
 if __name__ == "__main__":
+    print('ll')
     print("Starting Tensorflow container")
 
     if "GPU_ID" in os.environ:
