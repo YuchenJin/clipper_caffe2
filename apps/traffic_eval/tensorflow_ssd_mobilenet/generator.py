@@ -9,7 +9,6 @@ from multiprocessing import Queue
 from datetime import datetime
 import requests, json, numpy as np
 import base64
-import random
 
 class Dataset(object):
     def __init__(self, data_dir, max_count=10):
