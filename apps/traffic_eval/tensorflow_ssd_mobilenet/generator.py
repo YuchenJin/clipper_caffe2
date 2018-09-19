@@ -10,7 +10,6 @@ from datetime import datetime
 import requests, json, numpy as np
 import base64
 
-
 class Dataset(object):
     def __init__(self, data_dir, max_count=10):
         self.images = []
@@ -39,7 +38,7 @@ class car_Worker(Thread):
 	    img = base64.b64encode(f.read())
         headers = {"Content-type": "application/json"}
         r = requests.post("http://localhost:1337/car_app{}/predict".format(self.app_id), headers=headers, data=json.dumps({"input": img})).json()
-        print r['output']
+        #print r['output']
         with open(self.output, 'a') as fout:
             fout.write(str(r) + "\n")
 
@@ -54,7 +53,7 @@ class person_Worker(Thread):
 	    img = base64.b64encode(f.read())
         headers = {"Content-type": "application/json"}
         r = requests.post("http://localhost:1337/vgg_app{}/predict".format(self.app_id), headers=headers, data=json.dumps({"input": img})).json()
-        print r['output']
+        #print r['output']
         with open(self.output, 'a') as fout:
             fout.write(str(r) + "\n")
 
@@ -91,10 +90,10 @@ class Worker(Thread):
             self.lats.append((self.img_idx, lat))
             self.img_idx = (self.img_idx + 1) % len(self.dataset.images)
 	    for i in range(num_car):
-	    	car_thread = car_Worker(self.car_output, "1")
+	    	car_thread = car_Worker(self.car_output, random.randint(1,12))
 		car_thread.start()
 	    for i in range(num_person):
-	    	person_thread = person_Worker(self.face_output, "1")
+	    	person_thread = person_Worker(self.face_output,random.randint(1,3))
 		person_thread.start()
 
 

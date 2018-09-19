@@ -14,6 +14,8 @@ def eval_inception(sla, n):
         print('Test rps %s' % rps)
         threads = []
         outputs = []
+	car_outputs = []
+	face_outputs = []
         for i in range(int(n)):
             output = 'logs/mobilenet{}_iter{}_sla{}_rate{}.txt'.format(i+1, iteration, sla, rps)
 	    car_output = 'logs/car{}_iter{}_sla{}_rate{}.txt'.format(i+1, iteration, sla, rps)
@@ -31,21 +33,44 @@ def eval_inception(sla, n):
 	    t.daemon = True
             threads.append(t)
             outputs.append(output)
+	    car_outputs.append(car_output)
+	    face_outputs.append(face_output)
         for t in threads:
             t.start()
         for t in threads:
             t.join()
 	aggr_good = 0
 	aggr_total = 0
+	kk = True
 	for i, output in enumerate(outputs):
             good, total = parse_result(output)
 	    percent = float(good) / total
-            print('App %s: %.2f%%' % (i+1, percent*100))
+            print('Mobilenet App %s: %.2f%%' % (i+1, percent*100))
             aggr_good += good
             aggr_total += total
         if float(aggr_good) / aggr_total < .99:
-            return False
-        return True
+            kk = False
+
+	for i, output in enumerate(car_outputs):
+            good, total = parse_result(output)
+	    percent = float(good) / total
+            print('Car App %s: %.2f%%' % (i+1, percent*100))
+            aggr_good += good
+            aggr_total += total
+        if float(aggr_good) / aggr_total < .99:
+            kk = False
+
+	for i, output in enumerate(face_outputs):
+            good, total = parse_result(output)
+	    percent = float(good) / total
+            print('Person App %s: %.2f%%' % (i+1, percent*100))
+            aggr_good += good
+            aggr_total += total
+        if float(aggr_good) / aggr_total < .99:
+            kk = False
+
+	if kk == True:
+            return True
         
     duration = 10
     datapath = './resized_images/jackson_day/'
@@ -82,7 +107,7 @@ def main():
     FORMAT = "[%(asctime)-15s %(levelname)s] %(message)s"
     logging.basicConfig(format=FORMAT)
     logging.getLogger().setLevel(logging.INFO)
-    eval_inception(int(sys.argv[1]), int(sys.argv[2]))
+    eval_inception(50, 2)
 
 if __name__ == "__main__":
     main()
