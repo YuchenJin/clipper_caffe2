@@ -11,6 +11,11 @@ import skimage.io
 import skimage.transform
 import base64
 from StringIO import StringIO
+def warmup(net_def, n, device_opts):
+    NCHW_batch = np.zeros((n,3,224,224))  
+    workspace.FeedBlob('data', NCHW_batch.astype(np.float32), device_opts) 
+    workspace.RunNet(net_def.name, 1)   
+    results = workspace.FetchBlob('prob')   
 
 def predict_function(net_def, device_opts, imgs):
     NCHW_batch = np.zeros((len(imgs),3,224,224))
@@ -56,6 +61,7 @@ class caffe2Container(rpc.ModelContainerBase):
             self.net_def.ParseFromString(f.read())
             self.net_def.device_option.CopyFrom(self.device_opts)
             workspace.CreateNet(self.net_def, overwrite=True)
+	warmup(self.net_def, 50,self.device_opts) 
 
 
     def predict_strings(self, inputs):

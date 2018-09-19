@@ -8,7 +8,7 @@ export TF_CUDNN_USE_AUTOTUNE=0
 export CLIPPER_MODEL_VERSION="1"
 export CLIPPER_INPUT_TYPE="strings"
 export CLIPPER_MODEL_PATH="/nexus-models-nsdi/store/caffe2/vgg_face/1/"
-export CLIPPER_IP="localhost" #IP address of the frontend container
+export CLIPPER_IP="10.185.170.101" #IP address of the frontend container
 export CLIPPER_PORT="7000" 
 export GPU_ID=$3
 echo $GPU_ID
