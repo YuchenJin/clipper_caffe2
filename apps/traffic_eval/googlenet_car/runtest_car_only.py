@@ -47,7 +47,7 @@ def eval_inception(sla, n):
             return False
         return True
         
-    duration = 10
+    duration = 20
     datapath = './resized_images/'
     print(datapath)
     print('Latency sla: %s ms' % sla)
@@ -65,10 +65,10 @@ def eval_inception(sla, n):
             rps += 10
 	else:
 	    break
-    #for rps in np.arange(rps-9.5, rps, 0.5):
-    #    good = run(rps, 1)
-    #    if not good:
-    #        break
+    for rps in np.arange(rps-9.5, rps, 0.5):
+        good = run(rps, 1)
+        if not good:
+            break
 
 def parse_result(fn):
     total, good = 0, 0
