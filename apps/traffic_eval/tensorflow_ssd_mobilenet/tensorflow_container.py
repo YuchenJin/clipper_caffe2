@@ -83,7 +83,7 @@ class TensorflowContainer(rpc.ModelContainerBase):
 		graph=graph,
 		config=tf.ConfigProto(log_device_placement=False,gpu_options=tf.GPUOptions(allow_growth=True,visible_device_list=str(gpu_id))))
 
-	for i in range(1,2):
+	for i in range(1,15):
 	    tf_warmup(self.sess, i, self.input, self.output1, self.output3)
 	    #tf_warmup(self.sess, i, self.input, self.output1, self.output2, self.output3)
 	#print(a)
