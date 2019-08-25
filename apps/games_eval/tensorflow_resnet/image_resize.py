@@ -32,7 +32,7 @@ def rescale(img, input_height, input_width):
 
 def predict_function():
     max_count = 1999
-    data_dir = "/datasets/games/Fortnite/"
+    data_dir = "/random-360p/"
     for fn in os.listdir(data_dir):
 	try:
             curr_img = skimage.io.imread(os.path.join(data_dir, fn))

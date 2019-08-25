@@ -68,12 +68,13 @@ class Generator(object):
 
     def run(self, rate, duration):
         count = 0
-        gap = 1. / rate
         total = duration * rate
         beg = time.time()
         self.beg = time.time()
         logging.info('Start sending request at {} req/s'.format(rate))
+	gap = 1.0 / rate
         while True:
+	    #gap = -np.log(1.0 - np.random.random()) / rate
             now = time.time()
             while count * gap <= now - beg:
                 self.queue.put(1)

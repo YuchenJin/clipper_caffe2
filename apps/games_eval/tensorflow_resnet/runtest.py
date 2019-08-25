@@ -52,7 +52,7 @@ def eval_inception(sla, n):
     print("Number of models: %s" % n)
     #run(rps)
 
-    rps = 70
+    rps = 1
     while True:
 	for i in range(3):
 	    good = run(rps, i)

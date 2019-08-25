@@ -6,6 +6,7 @@ import glob
 import numpy as np
 import skimage.io
 import skimage.transform
+import time
 import base64
 from StringIO import StringIO
 import json
@@ -14,7 +15,10 @@ import tensorflow as tf
 
 def tf_warmup(sess, num_images, x, y):
     NHWC_batch = np.zeros((num_images,224,224,3))
+    start = time.time()
     results = sess.run(y, feed_dict={x:NHWC_batch})
+    end = time.time()
+    print(end-start)
     return results
 
 def predict_function(sess, imgs, x, y):
@@ -52,9 +56,10 @@ class TensorflowContainer(rpc.ModelContainerBase):
 		graph=graph,
 		config=tf.ConfigProto(log_device_placement=False,gpu_options=tf.GPUOptions(allow_growth=True,visible_device_list=str(gpu_id))))
 
-	#for i in range(129):
-	#    tf_warmup(self.sess, i, self.input, self.output)
-	tf_warmup(self.sess, 24, self.input, self.output)
+	for i in range(129):
+	    time.sleep(1)
+	    tf_warmup(self.sess, 1, self.input, self.output)
+	#tf_warmup(self.sess, 24, self.input, self.output)
 	
     def predict_strings(self, inputs):
         imgs = []
@@ -75,6 +80,8 @@ if __name__ == "__main__":
 
     if "GPU_ID" in os.environ:
         gpu_id = int(os.environ["GPU_ID"])
+	print(gpu_id)
+        #gpu_id = 1
     else:
         print("GPU id not set")
 
